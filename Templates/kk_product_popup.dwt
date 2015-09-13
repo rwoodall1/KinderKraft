@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<style type="text/css">
+
+#container {
+	position:absolute;
+	left:50px;
+	top:50px;
+	width:650px;
+	height:281px;
+	z-index:1;
+	background-image: url(../images/gradient_background/popup_background.jpg);
+	border: thin solid #333;
+	margin: 0px;
+	padding: 0px;
+	background-repeat: repeat-x;
+}
+#container h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: large;
+	font-style: normal;
+	font-weight: bold;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	margin: 5px;
+}
+#container_contents {
+	background-color: #FFF;
+	height: 215px;
+	width: 600px;
+	padding: 5px;
+	border: thin inset #999;
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+#container_contents img {
+	float: left;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: 20px;
+	position: relative;
+}
+#container_contents p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	color: #666;
+	margin-right: 5px;
+	margin-left: 5px;
+	float: left;
+	position: relative;
+	width: 355px;
+	padding-top: 10px;
+	height: auto;
+}
+</style>
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<div id="container">
+  <h2><!-- TemplateBeginEditable name="ProductName" -->Product Name<!-- TemplateEndEditable --></h2>
+  <div id="container_contents"><!-- TemplateBeginEditable name="ProductPic" --><img width="207" height="174" alt="Ultimate Cap and Gown" /><!-- TemplateEndEditable --><!-- TemplateBeginEditable name="ProductDesc" -->
+    <p><strong>Gown:</strong> Kids will stay cool and   comfortable in our lightweight fabric. Gowns are sized according to   height.<br />
+      <strong>Cap:</strong> Eight colors available. One-size-fits-all elastic   back.<br />
+      <strong>Tassel:</strong> Eight solid colors and five two-color options   available.<br />
+      <strong>Sash:</strong> Make their little graduation outfit even more   special. Choose between Graduate and &quot;Class of&quot; Sash.<br />
+      <strong>Medallion:</strong> Celebrate their grad day with a medal, just like the big kids get.</p>
+  <!-- TemplateEndEditable --></div>
+</div>
+</body>
+</html>

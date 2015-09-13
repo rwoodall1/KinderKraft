@@ -1,0 +1,41 @@
+﻿Imports Microsoft.VisualBasic
+
+Public Class AuthReq
+    Private _cardnum As String
+    Private _amount As String
+    Private _expdate As String
+    Private _cardfname As String
+    Public Property CardNum As String
+        Get
+            Return _cardnum
+        End Get
+        Set(value As String)
+            _cardnum = value
+        End Set
+    End Property
+    Public Property Amount As String
+        Get
+            Return _amount
+        End Get
+        Set(value As String)
+            _amount = value
+        End Set
+    End Property
+    Public Property ExpDate As String
+        Get
+            Return _expdate
+        End Get
+        Set(value As String)
+            _expdate = value
+        End Set
+    End Property
+    Public Property CardFname As String
+        Get
+            Return _cardfname
+        End Get
+        Set(value As String)
+            _cardfname = value
+        End Set
+    End Property
+    
+End Class

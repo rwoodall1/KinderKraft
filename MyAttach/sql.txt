@@ -1,0 +1,5 @@
+<asp:SqlDataSource ID="dstaxrate" runat="server" 
+			ConnectionString="<%$ ConnectionStrings:KK5 %>" 
+			ProviderName="<%$ ConnectionStrings:KK5.ProviderName %>" 
+			UpdateCommand="UPDATE taxrate SET totsalestx = @totsalestx WHERE (zipcode = @zipcode)">
+		</asp:SqlDataSource>

@@ -1,0 +1,1336 @@
+Time of Error: 12/10/2014 1:07 PM
+URL: http://localhost:61350/Kinderkraft5/cartpages/undefined
+Form: 
+QueryString: 
+Server Name: localhost
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+User IP: ::1
+User Host Name: ::1
+User is Authenticated: False
+Message: File does not exist.
+Source: System.Web
+TargetSite: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+StackTrace:    at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+
+
+Time of Error: 12/12/2014 2:48 PM
+URL: http://localhost:61350/Kinderkraft5/cartpages/undefined
+Form: 
+QueryString: 
+Server Name: localhost
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+User IP: ::1
+User Host Name: ::1
+User is Authenticated: False
+Message: File does not exist.
+Source: System.Web
+TargetSite: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+StackTrace:    at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+
+
+Time of Error: 12/12/2014 2:49 PM
+URL: http://localhost:61350/Kinderkraft5/cartpages/undefined
+Form: 
+QueryString: 
+Server Name: localhost
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+User IP: ::1
+User Host Name: ::1
+User is Authenticated: False
+Message: File does not exist.
+Source: System.Web
+TargetSite: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+StackTrace:    at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+
+
+Time of Error: 12/12/2014 2:50 PM
+URL: http://localhost:61350/Kinderkraft5/cartpages/undefined
+Form: 
+QueryString: 
+Server Name: localhost
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+User IP: ::1
+User Host Name: ::1
+User is Authenticated: False
+Message: File does not exist.
+Source: System.Web
+TargetSite: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+StackTrace:    at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+
+
+Time of Error: 12/12/2014 9:25 PM
+URL: http://localhost:61350/Kinderkraft5/cartpages/undefined
+Form: 
+QueryString: 
+Server Name: localhost
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+User IP: ::1
+User Host Name: ::1
+User is Authenticated: False
+Message: File does not exist.
+Source: System.Web
+TargetSite: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+StackTrace:    at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+
+
+Time of Error: 12/12/2014 9:29 PM
+URL: http://localhost:61350/Kinderkraft5/cartpages/GWN-2T
+Form: 
+QueryString: 
+Server Name: localhost
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+User IP: ::1
+User Host Name: ::1
+User is Authenticated: False
+Message: File does not exist.
+Source: System.Web
+TargetSite: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+StackTrace:    at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+
+
+Time of Error: 12/12/2014 9:35 PM
+URL: http://localhost:61350/Kinderkraft5/cartpages/undefined
+Form: 
+QueryString: 
+Server Name: localhost
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+User IP: ::1
+User Host Name: ::1
+User is Authenticated: False
+Message: File does not exist.
+Source: System.Web
+TargetSite: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+StackTrace:    at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+
+
+Time of Error: 1/28/2015 12:39 PM
+URL: http://test.jostenskinderkraft.com/cartpages/banner.aspx
+Form: 
+QueryString: 
+Server Name: test.jostenskinderkraft.com
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.93 Safari/537.36
+User IP: 192.168.1.143
+User Host Name: 192.168.1.143
+User is Authenticated: False
+Message: The file '/cartpages/banner.aspx' does not exist.
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult GetVPathBuildResultInternal(System.Web.VirtualPath, Boolean, Boolean, Boolean, Boolean, Boolean)
+StackTrace:    at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+
+
+Time of Error: 1/28/2015 12:39 PM
+URL: http://test.jostenskinderkraft.com/cartpages/banners.aspx
+Form: 
+QueryString: 
+Server Name: test.jostenskinderkraft.com
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.93 Safari/537.36
+User IP: 192.168.1.143
+User Host Name: 192.168.1.143
+User is Authenticated: False
+Message: E:\wwwroot\testkk\Kinderkraft5\cartpages\wristbandcart.aspx.vb(11): error BC30451: 'KWRIST' is not declared. It may be inaccessible due to its protection level.
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult CompileWebFile(System.Web.VirtualPath)
+StackTrace:    at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+
+
+Time of Error: 1/28/2015 1:42 PM
+URL: http://test.jostenskinderkraft.com/cartpages/banners.aspx
+Form: 
+QueryString: 
+Server Name: test.jostenskinderkraft.com
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.93 Safari/537.36
+User IP: 192.168.1.143
+User Host Name: 192.168.1.143
+User is Authenticated: True
+Message: E:\wwwroot\testkk\Kinderkraft5\cartpages\wristbandcart.aspx.vb(11): error BC30451: 'KWRIST' is not declared. It may be inaccessible due to its protection level.
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult CompileWebFile(System.Web.VirtualPath)
+StackTrace:    at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+
+
+Time of Error: 1/28/2015 1:49 PM
+URL: http://test.jostenskinderkraft.com/cartpages/banners.aspx
+Form: 
+QueryString: 
+Server Name: test.jostenskinderkraft.com
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.93 Safari/537.36
+User IP: 192.168.1.143
+User Host Name: 192.168.1.143
+User is Authenticated: True
+Message: E:\wwwroot\testkk\Kinderkraft5\cartpages\wristbandcart.aspx.vb(11): error BC30451: 'KWRIST' is not declared. It may be inaccessible due to its protection level.
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult CompileWebFile(System.Web.VirtualPath)
+StackTrace:    at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+
+
+Time of Error: 1/28/2015 1:49 PM
+URL: http://test.jostenskinderkraft.com/cartpages/banners.aspx
+Form: 
+QueryString: 
+Server Name: test.jostenskinderkraft.com
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.93 Safari/537.36
+User IP: 192.168.1.143
+User Host Name: 192.168.1.143
+User is Authenticated: True
+Message: E:\wwwroot\testkk\Kinderkraft5\cartpages\wristbandcart.aspx.vb(11): error BC30451: 'KWRIST' is not declared. It may be inaccessible due to its protection level.
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult CompileWebFile(System.Web.VirtualPath)
+StackTrace:    at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+
+
+Time of Error: 1/28/2015 1:50 PM
+URL: http://test.jostenskinderkraft.com/cartpages/banners.aspx
+Form: 
+QueryString: 
+Server Name: test.jostenskinderkraft.com
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.93 Safari/537.36
+User IP: 192.168.1.143
+User Host Name: 192.168.1.143
+User is Authenticated: True
+Message: E:\wwwroot\testkk\Kinderkraft5\cartpages\wristbandcart.aspx.vb(11): error BC30451: 'KWRIST' is not declared. It may be inaccessible due to its protection level.
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult CompileWebFile(System.Web.VirtualPath)
+StackTrace:    at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+
+
+Time of Error: 1/29/2015 1:22 PM
+URL: http://test.jostenskinderkraft.com/cartpages/banners.aspx
+Form: 
+QueryString: 
+Server Name: test.jostenskinderkraft.com
+User Agent: Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+User IP: 192.168.1.45
+User Host Name: 192.168.1.45
+User is Authenticated: False
+Message: E:\wwwroot\testkk\Kinderkraft5\cartpages\wristbandcart.aspx.vb(11): error BC30451: 'KWRIST' is not declared. It may be inaccessible due to its protection level.
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult CompileWebFile(System.Web.VirtualPath)
+StackTrace:    at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+
+
+Time of Error: 1/29/2015 1:22 PM
+URL: http://test.jostenskinderkraft.com/cartpages/banners.aspx
+Form: 
+QueryString: 
+Server Name: test.jostenskinderkraft.com
+User Agent: Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+User IP: 192.168.1.45
+User Host Name: 192.168.1.45
+User is Authenticated: False
+Message: E:\wwwroot\testkk\Kinderkraft5\cartpages\wristbandcart.aspx.vb(11): error BC30451: 'KWRIST' is not declared. It may be inaccessible due to its protection level.
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult CompileWebFile(System.Web.VirtualPath)
+StackTrace:    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+
+
+Time of Error: 1/29/2015 3:04 PM
+URL: http://test.jostenskinderkraft.com/cartpages/banners.aspx
+Form: 
+QueryString: 
+Server Name: test.jostenskinderkraft.com
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.93 Safari/537.36
+User IP: 192.168.1.143
+User Host Name: 192.168.1.143
+User is Authenticated: False
+Message: E:\wwwroot\testkk\Kinderkraft5\cartpages\wristbandcart.aspx.vb(11): error BC30451: 'KWRIST' is not declared. It may be inaccessible due to its protection level.
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult CompileWebFile(System.Web.VirtualPath)
+StackTrace:    at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+
+
+Time of Error: 1/29/2015 3:05 PM
+URL: http://test.jostenskinderkraft.com/cartpages/banners.aspx
+Form: 
+QueryString: 
+Server Name: test.jostenskinderkraft.com
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.93 Safari/537.36
+User IP: 192.168.1.143
+User Host Name: 192.168.1.143
+User is Authenticated: False
+Message: E:\wwwroot\testkk\Kinderkraft5\cartpages\banners.aspx(58): error BC30456: 'lklogin_Click' is not a member of 'ASP.cartpages_banners_aspx'.
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult CompileWebFile(System.Web.VirtualPath)
+StackTrace:    at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+
+
+Time of Error: 1/29/2015 3:07 PM
+URL: http://test.jostenskinderkraft.com/cartpages/banners.aspx
+Form: 
+QueryString: 
+Server Name: test.jostenskinderkraft.com
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.93 Safari/537.36
+User IP: 192.168.1.143
+User Host Name: 192.168.1.143
+User is Authenticated: False
+Message: E:\wwwroot\testkk\Kinderkraft5\cartpages\banners.aspx(58): error BC30456: 'lklogin_Click' is not a member of 'ASP.cartpages_banners_aspx'.
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult CompileWebFile(System.Web.VirtualPath)
+StackTrace:    at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+
+
+Time of Error: 1/29/2015 3:24 PM
+URL: http://test.jostenskinderkraft.com/cartpages/banners.aspx
+Form: 
+QueryString: 
+Server Name: test.jostenskinderkraft.com
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.93 Safari/537.36
+User IP: 192.168.1.143
+User Host Name: 192.168.1.143
+User is Authenticated: False
+Message: E:\wwwroot\testkk\Kinderkraft5\cartpages\banners.aspx.vb(2): error ASPNET: Make sure that the class defined in this code file matches the 'inherits' attribute, and that it extends the correct base class (e.g. Page or UserControl).
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult CompileWebFile(System.Web.VirtualPath)
+StackTrace:    at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+
+
+Time of Error: 1/29/2015 3:24 PM
+URL: http://test.jostenskinderkraft.com/cartpages/banners.aspx
+Form: 
+QueryString: 
+Server Name: test.jostenskinderkraft.com
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.93 Safari/537.36
+User IP: 192.168.1.143
+User Host Name: 192.168.1.143
+User is Authenticated: False
+Message: E:\wwwroot\testkk\Kinderkraft5\cartpages\banners.aspx.vb(2): error ASPNET: Make sure that the class defined in this code file matches the 'inherits' attribute, and that it extends the correct base class (e.g. Page or UserControl).
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult CompileWebFile(System.Web.VirtualPath)
+StackTrace:    at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+
+
+Time of Error: 1/29/2015 3:25 PM
+URL: http://test.jostenskinderkraft.com/cartpages/banners.aspx
+Form: 
+QueryString: 
+Server Name: test.jostenskinderkraft.com
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.93 Safari/537.36
+User IP: 192.168.1.143
+User Host Name: 192.168.1.143
+User is Authenticated: False
+Message: E:\wwwroot\testkk\Kinderkraft5\cartpages\banners.aspx(60): error BC30456: 'lklogin_Click' is not a member of 'ASP.cartpages_banners_aspx'.
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult CompileWebFile(System.Web.VirtualPath)
+StackTrace:    at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+
+
+Time of Error: 1/29/2015 3:57 PM
+URL: http://test.jostenskinderkraft.com/cartpages/banners.aspx
+Form: 
+QueryString: 
+Server Name: test.jostenskinderkraft.com
+User Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36
+User IP: 192.168.1.143
+User Host Name: 192.168.1.143
+User is Authenticated: False
+Message: E:\wwwroot\testkk\Kinderkraft5\cartpages\banners.aspx(60): error BC30456: 'lklogin_Click' is not a member of 'ASP.cartpages_banners_aspx'.
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult CompileWebFile(System.Web.VirtualPath)
+StackTrace:    at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+
+
+Time of Error: 1/29/2015 4:59 PM
+URL: http://test.jostenskinderkraft.com/cartpages/banners.aspx
+Form: 
+QueryString: 
+Server Name: test.jostenskinderkraft.com
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.93 Safari/537.36
+User IP: 192.168.1.143
+User Host Name: 192.168.1.143
+User is Authenticated: False
+Message: E:\wwwroot\testkk\Kinderkraft5\cartpages\banners.aspx(60): error BC30456: 'lklogin_Click' is not a member of 'ASP.cartpages_banners_aspx'.
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult CompileWebFile(System.Web.VirtualPath)
+StackTrace:    at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+
+
+Time of Error: 1/29/2015 4:59 PM
+URL: http://test.jostenskinderkraft.com/cartpages/banners.aspx
+Form: 
+QueryString: 
+Server Name: test.jostenskinderkraft.com
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.93 Safari/537.36
+User IP: 192.168.1.143
+User Host Name: 192.168.1.143
+User is Authenticated: False
+Message: E:\wwwroot\testkk\Kinderkraft5\cartpages\banners.aspx(60): error BC30456: 'lklogin_Click' is not a member of 'ASP.cartpages_banners_aspx'.
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult CompileWebFile(System.Web.VirtualPath)
+StackTrace:    at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+
+
+Time of Error: 2/1/2015 9:27 AM
+URL: http://test.jostenskinderkraft.com/cartpages/banners.aspx
+Form: 
+QueryString: 
+Server Name: test.jostenskinderkraft.com
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.93 Safari/537.36
+User IP: 12.216.18.179
+User Host Name: 12.216.18.179
+User is Authenticated: False
+Message: E:\wwwroot\testkk\Kinderkraft5\cartpages\banners.aspx(60): error BC30456: 'lklogin_Click' is not a member of 'ASP.cartpages_banners_aspx'.
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult CompileWebFile(System.Web.VirtualPath)
+StackTrace:    at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+
+
+Time of Error: 2/19/2015 12:28 PM
+URL: http://localhost:62914/cartpages/banners.aspx
+Form: __EVENTTARGET=&__EVENTARGUMENT=&__VIEWSTATE=%2fwEPDwUJLTY1ODc0NjM4D2QWAgIBDxYCHgdlbmN0eXBlBRNtdWx0aXBhcnQvZm9ybS1kYXRhFgQCCw8PFgIeBFRleHQFBTM0Ljk5ZGQCFQ8QDxYCHgtfIURhdGFCb3VuZGdkEBUIDVBsZWFzZSBTZWxlY3QEQmx1ZQVHcmVlbgZPcmFuZ2UEUGluawZQdXJwbGUDUmVkBlllbGxvdxUIAzI2MgMyNjMDMjY0AzI2NQMyNjYDMjY3AzI2OAMyNjkUKwMIZ2dnZ2dnZ2dkZGRZivLXanj71KweAnyvTQ%2bK3RNWhXrHBaVpiQ3%2fZtiB3Q%3d%3d&txtfname=f&txtlname=d&ddlclr=266&txtqty=1&btnadd=Add+to+Cart&__VIEWSTATEGENERATOR=327B7C5C&__SCROLLPOSITIONX=0&__SCROLLPOSITIONY=126&__EVENTVALIDATION=%2fwEdAA9NOhxykpq%2bMSz1WtftSKDN7f2YaSmlnHB%2fiKtAzEbFfsJUGz6lsVF2hoJVrSRg2yhYFd9zbYgBA%2bt1JyZdELSzL1OjWwIXT6Bu52QGXmwRuepjS0hyzUjdoQzWiZkaPh3zjdeRTyoAdOLQQ%2fi2s45U15CVbcHzQhbewgC4pku89ggvm1dgZePbNOOMx043%2br4rn4GnI95tqa1kctxupZOO2M%2bzgPzGs1AbGyafrNODThoZ0wSL5U9LmSPcecViyCJ3iOK%2fvhbKLcdmjiYG0i3MnorGjHwY1hpeqB0vzUWmUpW4vgeL6adI3NxXCF4E1lT0WC0xtYf%2bU1Yw33WQ%2fVNdBtH7fTypvZwxzCP8YB3Igg%3d%3d
+QueryString: 
+Server Name: localhost
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+User IP: ::1
+User Host Name: ::1
+User is Authenticated: False
+Message: The remote server returned an error: (530) Not logged in.
+Source: System
+TargetSite: Void SyncRequestCallback(System.Object)
+StackTrace:    at System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   at System.Net.FtpWebRequest.RequestCallback(Object obj)
+   at System.Net.CommandStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Stream.Dispose()
+   at System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   at System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   at System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   at System.Net.FtpWebRequest.GetRequestStream()
+   at cartpages_banners.FtpFile() in F:\InetPub\wwwroot\kinderkraft\Kinderkraft5goodwithlinks\cartpages\banners.aspx.vb:line 80
+   at cartpages_banners.btnadd_Click(Object sender, EventArgs e) in F:\InetPub\wwwroot\kinderkraft\Kinderkraft5goodwithlinks\cartpages\banners.aspx.vb:line 47
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+
+
+Time of Error: 2/19/2015 12:38 PM
+URL: http://localhost:62914/cartpages/banners.aspx
+Form: __EVENTTARGET=&__EVENTARGUMENT=&__VIEWSTATE=%2fwEPDwUJLTY1ODc0NjM4D2QWAgIBDxYCHgdlbmN0eXBlBRNtdWx0aXBhcnQvZm9ybS1kYXRhFgQCCw8PFgIeBFRleHQFBTM0Ljk5ZGQCFQ8QDxYCHgtfIURhdGFCb3VuZGdkEBUIDVBsZWFzZSBTZWxlY3QEQmx1ZQVHcmVlbgZPcmFuZ2UEUGluawZQdXJwbGUDUmVkBlllbGxvdxUIAzI2MgMyNjMDMjY0AzI2NQMyNjYDMjY3AzI2OAMyNjkUKwMIZ2dnZ2dnZ2dkZGRZivLXanj71KweAnyvTQ%2bK3RNWhXrHBaVpiQ3%2fZtiB3Q%3d%3d&txtfname=w&txtlname=ew&ddlclr=263&txtqty=1&btnadd=Add+to+Cart&__VIEWSTATEGENERATOR=327B7C5C&__SCROLLPOSITIONX=0&__SCROLLPOSITIONY=126&__EVENTVALIDATION=%2fwEdAA9NOhxykpq%2bMSz1WtftSKDN7f2YaSmlnHB%2fiKtAzEbFfsJUGz6lsVF2hoJVrSRg2yhYFd9zbYgBA%2bt1JyZdELSzL1OjWwIXT6Bu52QGXmwRuepjS0hyzUjdoQzWiZkaPh3zjdeRTyoAdOLQQ%2fi2s45U15CVbcHzQhbewgC4pku89ggvm1dgZePbNOOMx043%2br4rn4GnI95tqa1kctxupZOO2M%2bzgPzGs1AbGyafrNODThoZ0wSL5U9LmSPcecViyCJ3iOK%2fvhbKLcdmjiYG0i3MnorGjHwY1hpeqB0vzUWmUpW4vgeL6adI3NxXCF4E1lT0WC0xtYf%2bU1Yw33WQ%2fVNdBtH7fTypvZwxzCP8YB3Igg%3d%3d
+QueryString: 
+Server Name: localhost
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+User IP: ::1
+User Host Name: ::1
+User is Authenticated: False
+Message: Could not find file 'F:\InetPub\wwwroot\kinderkraft\Kinderkraft5goodwithlinks\cartpages\blue.jpg'.
+Source: mscorlib
+TargetSite: Void WinIOError(Int32, System.String)
+StackTrace:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path)
+   at cartpages_banners.FtpFile() in F:\InetPub\wwwroot\kinderkraft\Kinderkraft5goodwithlinks\cartpages\banners.aspx.vb:line 81
+   at cartpages_banners.btnadd_Click(Object sender, EventArgs e) in F:\InetPub\wwwroot\kinderkraft\Kinderkraft5goodwithlinks\cartpages\banners.aspx.vb:line 47
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+
+
+Time of Error: 2/19/2015 12:39 PM
+URL: http://localhost:62914/cartpages/banners.aspx
+Form: __EVENTTARGET=&__EVENTARGUMENT=&__VIEWSTATE=%2fwEPDwUJLTY1ODc0NjM4D2QWAgIBDxYCHgdlbmN0eXBlBRNtdWx0aXBhcnQvZm9ybS1kYXRhFgQCCw8PFgIeBFRleHQFBTM0Ljk5ZGQCFQ8QDxYCHgtfIURhdGFCb3VuZGdkEBUIDVBsZWFzZSBTZWxlY3QEQmx1ZQVHcmVlbgZPcmFuZ2UEUGluawZQdXJwbGUDUmVkBlllbGxvdxUIAzI2MgMyNjMDMjY0AzI2NQMyNjYDMjY3AzI2OAMyNjkUKwMIZ2dnZ2dnZ2dkZGRZivLXanj71KweAnyvTQ%2bK3RNWhXrHBaVpiQ3%2fZtiB3Q%3d%3d&txtfname=e&txtlname=ewr&ddlclr=264&txtqty=1&btnadd=Add+to+Cart&__VIEWSTATEGENERATOR=327B7C5C&__SCROLLPOSITIONX=0&__SCROLLPOSITIONY=126&__EVENTVALIDATION=%2fwEdAA9NOhxykpq%2bMSz1WtftSKDN7f2YaSmlnHB%2fiKtAzEbFfsJUGz6lsVF2hoJVrSRg2yhYFd9zbYgBA%2bt1JyZdELSzL1OjWwIXT6Bu52QGXmwRuepjS0hyzUjdoQzWiZkaPh3zjdeRTyoAdOLQQ%2fi2s45U15CVbcHzQhbewgC4pku89ggvm1dgZePbNOOMx043%2br4rn4GnI95tqa1kctxupZOO2M%2bzgPzGs1AbGyafrNODThoZ0wSL5U9LmSPcecViyCJ3iOK%2fvhbKLcdmjiYG0i3MnorGjHwY1hpeqB0vzUWmUpW4vgeL6adI3NxXCF4E1lT0WC0xtYf%2bU1Yw33WQ%2fVNdBtH7fTypvZwxzCP8YB3Igg%3d%3d
+QueryString: 
+Server Name: localhost
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+User IP: ::1
+User Host Name: ::1
+User is Authenticated: False
+Message: The remote server returned an error: (550) File unavailable (e.g., file not found, no access).
+Source: System
+TargetSite: Void SyncRequestCallback(System.Object)
+StackTrace:    at System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   at System.Net.FtpWebRequest.RequestCallback(Object obj)
+   at System.Net.CommandStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Stream.Dispose()
+   at System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   at System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   at System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   at System.Net.FtpWebRequest.GetRequestStream()
+   at cartpages_banners.FtpFile() in F:\InetPub\wwwroot\kinderkraft\Kinderkraft5goodwithlinks\cartpages\banners.aspx.vb:line 80
+   at cartpages_banners.btnadd_Click(Object sender, EventArgs e) in F:\InetPub\wwwroot\kinderkraft\Kinderkraft5goodwithlinks\cartpages\banners.aspx.vb:line 47
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+
+
+Time of Error: 2/19/2015 12:40 PM
+URL: http://localhost:62914/cartpages/banners.aspx
+Form: __EVENTTARGET=&__EVENTARGUMENT=&__VIEWSTATE=%2fwEPDwUJLTY1ODc0NjM4D2QWAgIBDxYCHgdlbmN0eXBlBRNtdWx0aXBhcnQvZm9ybS1kYXRhFgQCCw8PFgIeBFRleHQFBTM0Ljk5ZGQCFQ8QDxYCHgtfIURhdGFCb3VuZGdkEBUIDVBsZWFzZSBTZWxlY3QEQmx1ZQVHcmVlbgZPcmFuZ2UEUGluawZQdXJwbGUDUmVkBlllbGxvdxUIAzI2MgMyNjMDMjY0AzI2NQMyNjYDMjY3AzI2OAMyNjkUKwMIZ2dnZ2dnZ2dkZGRZivLXanj71KweAnyvTQ%2bK3RNWhXrHBaVpiQ3%2fZtiB3Q%3d%3d&txtfname=e&txtlname=ewr&ddlclr=264&txtqty=1&btnadd=Add+to+Cart&__VIEWSTATEGENERATOR=327B7C5C&__SCROLLPOSITIONX=0&__SCROLLPOSITIONY=126&__EVENTVALIDATION=%2fwEdAA9NOhxykpq%2bMSz1WtftSKDN7f2YaSmlnHB%2fiKtAzEbFfsJUGz6lsVF2hoJVrSRg2yhYFd9zbYgBA%2bt1JyZdELSzL1OjWwIXT6Bu52QGXmwRuepjS0hyzUjdoQzWiZkaPh3zjdeRTyoAdOLQQ%2fi2s45U15CVbcHzQhbewgC4pku89ggvm1dgZePbNOOMx043%2br4rn4GnI95tqa1kctxupZOO2M%2bzgPzGs1AbGyafrNODThoZ0wSL5U9LmSPcecViyCJ3iOK%2fvhbKLcdmjiYG0i3MnorGjHwY1hpeqB0vzUWmUpW4vgeL6adI3NxXCF4E1lT0WC0xtYf%2bU1Yw33WQ%2fVNdBtH7fTypvZwxzCP8YB3Igg%3d%3d
+QueryString: 
+Server Name: localhost
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+User IP: ::1
+User Host Name: ::1
+User is Authenticated: False
+Message: Could not find file 'F:\InetPub\wwwroot\kinderkraft\Kinderkraft5goodwithlinks\cartpages\blue.jpg'.
+Source: mscorlib
+TargetSite: Void WinIOError(Int32, System.String)
+StackTrace:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path)
+   at cartpages_banners.FtpFile() in F:\InetPub\wwwroot\kinderkraft\Kinderkraft5goodwithlinks\cartpages\banners.aspx.vb:line 81
+   at cartpages_banners.btnadd_Click(Object sender, EventArgs e) in F:\InetPub\wwwroot\kinderkraft\Kinderkraft5goodwithlinks\cartpages\banners.aspx.vb:line 47
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+
+
+Time of Error: 2/19/2015 12:42 PM
+URL: http://localhost:62914/cartpages/banners.aspx
+Form: __EVENTTARGET=&__EVENTARGUMENT=&__VIEWSTATE=%2fwEPDwUJLTY1ODc0NjM4D2QWAgIBDxYCHgdlbmN0eXBlBRNtdWx0aXBhcnQvZm9ybS1kYXRhFgQCCw8PFgIeBFRleHQFBTM0Ljk5ZGQCFQ8QDxYCHgtfIURhdGFCb3VuZGdkEBUIDVBsZWFzZSBTZWxlY3QEQmx1ZQVHcmVlbgZPcmFuZ2UEUGluawZQdXJwbGUDUmVkBlllbGxvdxUIAzI2MgMyNjMDMjY0AzI2NQMyNjYDMjY3AzI2OAMyNjkUKwMIZ2dnZ2dnZ2dkZGRZivLXanj71KweAnyvTQ%2bK3RNWhXrHBaVpiQ3%2fZtiB3Q%3d%3d&txtfname=ae&txtlname=e&ddlclr=264&txtqty=1&btnadd=Add+to+Cart&__VIEWSTATEGENERATOR=327B7C5C&__SCROLLPOSITIONX=0&__SCROLLPOSITIONY=126&__EVENTVALIDATION=%2fwEdAA9NOhxykpq%2bMSz1WtftSKDN7f2YaSmlnHB%2fiKtAzEbFfsJUGz6lsVF2hoJVrSRg2yhYFd9zbYgBA%2bt1JyZdELSzL1OjWwIXT6Bu52QGXmwRuepjS0hyzUjdoQzWiZkaPh3zjdeRTyoAdOLQQ%2fi2s45U15CVbcHzQhbewgC4pku89ggvm1dgZePbNOOMx043%2br4rn4GnI95tqa1kctxupZOO2M%2bzgPzGs1AbGyafrNODThoZ0wSL5U9LmSPcecViyCJ3iOK%2fvhbKLcdmjiYG0i3MnorGjHwY1hpeqB0vzUWmUpW4vgeL6adI3NxXCF4E1lT0WC0xtYf%2bU1Yw33WQ%2fVNdBtH7fTypvZwxzCP8YB3Igg%3d%3d
+QueryString: 
+Server Name: localhost
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+User IP: ::1
+User Host Name: ::1
+User is Authenticated: False
+Message: The remote server returned an error: (550) File unavailable (e.g., file not found, no access).
+Source: System
+TargetSite: Void SyncRequestCallback(System.Object)
+StackTrace:    at System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   at System.Net.FtpWebRequest.RequestCallback(Object obj)
+   at System.Net.CommandStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Stream.Dispose()
+   at System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   at System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   at System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   at System.Net.FtpWebRequest.GetRequestStream()
+   at cartpages_banners.FtpFile() in F:\InetPub\wwwroot\kinderkraft\Kinderkraft5goodwithlinks\cartpages\banners.aspx.vb:line 80
+   at cartpages_banners.btnadd_Click(Object sender, EventArgs e) in F:\InetPub\wwwroot\kinderkraft\Kinderkraft5goodwithlinks\cartpages\banners.aspx.vb:line 47
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+
+
+Time of Error: 2/19/2015 12:44 PM
+URL: http://localhost:62914/cartpages/banners.aspx
+Form: __EVENTTARGET=&__EVENTARGUMENT=&__VIEWSTATE=%2fwEPDwUJLTY1ODc0NjM4D2QWAgIBDxYCHgdlbmN0eXBlBRNtdWx0aXBhcnQvZm9ybS1kYXRhFgQCCw8PFgIeBFRleHQFBTM0Ljk5ZGQCFQ8QDxYCHgtfIURhdGFCb3VuZGdkEBUIDVBsZWFzZSBTZWxlY3QEQmx1ZQVHcmVlbgZPcmFuZ2UEUGluawZQdXJwbGUDUmVkBlllbGxvdxUIAzI2MgMyNjMDMjY0AzI2NQMyNjYDMjY3AzI2OAMyNjkUKwMIZ2dnZ2dnZ2dkZGRZivLXanj71KweAnyvTQ%2bK3RNWhXrHBaVpiQ3%2fZtiB3Q%3d%3d&txtfname=s&txtlname=s&ddlclr=264&txtqty=1&btnadd=Add+to+Cart&__VIEWSTATEGENERATOR=327B7C5C&__SCROLLPOSITIONX=0&__SCROLLPOSITIONY=126&__EVENTVALIDATION=%2fwEdAA9NOhxykpq%2bMSz1WtftSKDN7f2YaSmlnHB%2fiKtAzEbFfsJUGz6lsVF2hoJVrSRg2yhYFd9zbYgBA%2bt1JyZdELSzL1OjWwIXT6Bu52QGXmwRuepjS0hyzUjdoQzWiZkaPh3zjdeRTyoAdOLQQ%2fi2s45U15CVbcHzQhbewgC4pku89ggvm1dgZePbNOOMx043%2br4rn4GnI95tqa1kctxupZOO2M%2bzgPzGs1AbGyafrNODThoZ0wSL5U9LmSPcecViyCJ3iOK%2fvhbKLcdmjiYG0i3MnorGjHwY1hpeqB0vzUWmUpW4vgeL6adI3NxXCF4E1lT0WC0xtYf%2bU1Yw33WQ%2fVNdBtH7fTypvZwxzCP8YB3Igg%3d%3d
+QueryString: 
+Server Name: localhost
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+User IP: ::1
+User Host Name: ::1
+User is Authenticated: False
+Message: Could not find file 'C:\Program Files (x86)\IIS Express\blue.jpg'.
+Source: mscorlib
+TargetSite: Void WinIOError(Int32, System.String)
+StackTrace:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path)
+   at cartpages_banners.FtpFile() in F:\InetPub\wwwroot\kinderkraft\Kinderkraft5goodwithlinks\cartpages\banners.aspx.vb:line 82
+   at cartpages_banners.btnadd_Click(Object sender, EventArgs e) in F:\InetPub\wwwroot\kinderkraft\Kinderkraft5goodwithlinks\cartpages\banners.aspx.vb:line 47
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+
+
+Time of Error: 2/23/2015 9:03 AM
+URL: http://localhost:62914/cartpages/banners.aspx
+Form: __EVENTTARGET=&__EVENTARGUMENT=&__VIEWSTATE=%2fwEPDwUJLTY1ODc0NjM4D2QWAgIBDxYCHgdlbmN0eXBlBRNtdWx0aXBhcnQvZm9ybS1kYXRhFgQCCw8PFgIeBFRleHQFBTM0Ljk5ZGQCFQ8QDxYCHgtfIURhdGFCb3VuZGdkEBUIDVBsZWFzZSBTZWxlY3QEQmx1ZQVHcmVlbgZPcmFuZ2UEUGluawZQdXJwbGUDUmVkBlllbGxvdxUIAzI2MgMyNjMDMjY0AzI2NQMyNjYDMjY3AzI2OAMyNjkUKwMIZ2dnZ2dnZ2dkZGRZivLXanj71KweAnyvTQ%2bK3RNWhXrHBaVpiQ3%2fZtiB3Q%3d%3d&txtfname=Randy&txtlname=Woodall&ddlclr=264&txtqty=1&btnadd=Add+to+Cart&__VIEWSTATEGENERATOR=327B7C5C&__SCROLLPOSITIONX=0&__SCROLLPOSITIONY=126&__EVENTVALIDATION=%2fwEdAA9NOhxykpq%2bMSz1WtftSKDN7f2YaSmlnHB%2fiKtAzEbFfsJUGz6lsVF2hoJVrSRg2yhYFd9zbYgBA%2bt1JyZdELSzL1OjWwIXT6Bu52QGXmwRuepjS0hyzUjdoQzWiZkaPh3zjdeRTyoAdOLQQ%2fi2s45U15CVbcHzQhbewgC4pku89ggvm1dgZePbNOOMx043%2br4rn4GnI95tqa1kctxupZOO2M%2bzgPzGs1AbGyafrNODThoZ0wSL5U9LmSPcecViyCJ3iOK%2fvhbKLcdmjiYG0i3MnorGjHwY1hpeqB0vzUWmUpW4vgeL6adI3NxXCF4E1lT0WC0xtYf%2bU1Yw33WQ%2fVNdBtH7fTypvZwxzCP8YB3Igg%3d%3d
+QueryString: 
+Server Name: localhost
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+User IP: ::1
+User Host Name: ::1
+User is Authenticated: False
+Message: Object reference not set to an instance of an object.
+Source: App_Web_aodxjrax
+TargetSite: System.String FtpFile()
+StackTrace:    at cartpages_banners.FtpFile() in F:\InetPub\wwwroot\kinderkraft\Kinderkraft5goodwithlinks\cartpages\banners.aspx.vb:line 73
+   at cartpages_banners.btnadd_Click(Object sender, EventArgs e) in F:\InetPub\wwwroot\kinderkraft\Kinderkraft5goodwithlinks\cartpages\banners.aspx.vb:line 47
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+
+
+Time of Error: 2/23/2015 9:08 AM
+URL: http://localhost:62914/cartpages/banners.aspx
+Form: __EVENTTARGET=&__EVENTARGUMENT=&__VIEWSTATE=%2fwEPDwUJLTY1ODc0NjM4D2QWAgIBDxYCHgdlbmN0eXBlBRNtdWx0aXBhcnQvZm9ybS1kYXRhFgQCCw8PFgIeBFRleHQFBTM0Ljk5ZGQCFQ8QDxYCHgtfIURhdGFCb3VuZGdkEBUIDVBsZWFzZSBTZWxlY3QEQmx1ZQVHcmVlbgZPcmFuZ2UEUGluawZQdXJwbGUDUmVkBlllbGxvdxUIAzI2MgMyNjMDMjY0AzI2NQMyNjYDMjY3AzI2OAMyNjkUKwMIZ2dnZ2dnZ2dkZGRZivLXanj71KweAnyvTQ%2bK3RNWhXrHBaVpiQ3%2fZtiB3Q%3d%3d&txtfname=Randy&txtlname=Woodall&ddlclr=264&txtqty=1&btnadd=Add+to+Cart&__VIEWSTATEGENERATOR=327B7C5C&__SCROLLPOSITIONX=0&__SCROLLPOSITIONY=0&__EVENTVALIDATION=%2fwEdAA9NOhxykpq%2bMSz1WtftSKDN7f2YaSmlnHB%2fiKtAzEbFfsJUGz6lsVF2hoJVrSRg2yhYFd9zbYgBA%2bt1JyZdELSzL1OjWwIXT6Bu52QGXmwRuepjS0hyzUjdoQzWiZkaPh3zjdeRTyoAdOLQQ%2fi2s45U15CVbcHzQhbewgC4pku89ggvm1dgZePbNOOMx043%2br4rn4GnI95tqa1kctxupZOO2M%2bzgPzGs1AbGyafrNODThoZ0wSL5U9LmSPcecViyCJ3iOK%2fvhbKLcdmjiYG0i3MnorGjHwY1hpeqB0vzUWmUpW4vgeL6adI3NxXCF4E1lT0WC0xtYf%2bU1Yw33WQ%2fVNdBtH7fTypvZwxzCP8YB3Igg%3d%3d
+QueryString: 
+Server Name: localhost
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36
+User IP: ::1
+User Host Name: ::1
+User is Authenticated: False
+Message: StartIndex cannot be less than zero.
+Parameter name: startIndex
+Source: mscorlib
+TargetSite: System.String InternalSubStringWithChecks(Int32, Int32, Boolean)
+StackTrace:    at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at System.String.Substring(Int32 startIndex)
+   at cartpages_banners.FtpFile() in F:\InetPub\wwwroot\kinderkraft\Kinderkraft5goodwithlinks\cartpages\banners.aspx.vb:line 72
+   at cartpages_banners.btnadd_Click(Object sender, EventArgs e) in F:\InetPub\wwwroot\kinderkraft\Kinderkraft5goodwithlinks\cartpages\banners.aspx.vb:line 47
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+
+
+Time of Error: 2/23/2015 9:08 AM
+URL: http://localhost:62914/cartpages/banners.aspx
+Form: __EVENTTARGET=&__EVENTARGUMENT=&__VIEWSTATE=%2fwEPDwUJLTY1ODc0NjM4D2QWAgIBDxYCHgdlbmN0eXBlBRNtdWx0aXBhcnQvZm9ybS1kYXRhFggCAQ8PFgIeBFRleHQFBkxvZyBJbmRkAgUPDxYCHwEFF0N1cnJlbnQgQ3VzdG9tZXIgaXM6KDApZGQCCw8PFgIfAQUFMzQuOTlkZAIVDxAPFgIeC18hRGF0YUJvdW5kZ2QQFQgNUGxlYXNlIFNlbGVjdARCbHVlBUdyZWVuBk9yYW5nZQRQaW5rBlB1cnBsZQNSZWQGWWVsbG93FQgDMjYyAzI2MwMyNjQDMjY1AzI2NgMyNjcDMjY4AzI2ORQrAwhnZ2dnZ2dnZ2RkZC%2bxRbLWBjU0NSFBb%2bZ%2bsA92TUEv6hCJNOgEdH4m%2fFJq&txtfname=Randy&txtlname=Woodall&ddlclr=264&txtqty=1&btnadd=Add+to+Cart&__VIEWSTATEGENERATOR=327B7C5C&__SCROLLPOSITIONX=0&__SCROLLPOSITIONY=0&__EVENTVALIDATION=%2fwEdAA9CgPUT8LQ344oxobcf%2flNJ7f2YaSmlnHB%2fiKtAzEbFfsJUGz6lsVF2hoJVrSRg2yhYFd9zbYgBA%2bt1JyZdELSzL1OjWwIXT6Bu52QGXmwRuepjS0hyzUjdoQzWiZkaPh3zjdeRTyoAdOLQQ%2fi2s45U15CVbcHzQhbewgC4pku89ggvm1dgZePbNOOMx043%2br4rn4GnI95tqa1kctxupZOO2M%2bzgPzGs1AbGyafrNODThoZ0wSL5U9LmSPcecViyCJ3iOK%2fvhbKLcdmjiYG0i3MnorGjHwY1hpeqB0vzUWmUpW4vgeL6adI3NxXCF4E1lRTYKiR0vsKzYEPO8vRhl%2fwlCFcV3%2b1UcupqTeUO5GOlQ%3d%3d
+QueryString: 
+Server Name: localhost
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36
+User IP: ::1
+User Host Name: ::1
+User is Authenticated: False
+Message: Object reference not set to an instance of an object.
+Source: App_Web_i240gzqv
+TargetSite: System.String FtpFile()
+StackTrace:    at cartpages_banners.FtpFile() in F:\InetPub\wwwroot\kinderkraft\Kinderkraft5goodwithlinks\cartpages\banners.aspx.vb:line 76
+   at cartpages_banners.btnadd_Click(Object sender, EventArgs e) in F:\InetPub\wwwroot\kinderkraft\Kinderkraft5goodwithlinks\cartpages\banners.aspx.vb:line 47
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+
+
+Time of Error: 2/23/2015 9:15 AM
+URL: http://localhost:62914/cartpages/banners.aspx
+Form: __EVENTTARGET=&__EVENTARGUMENT=&__VIEWSTATE=%2fwEPDwUJLTY1ODc0NjM4D2QWAgIBDxYCHgdlbmN0eXBlBRNtdWx0aXBhcnQvZm9ybS1kYXRhFggCAQ8PFgIeBFRleHQFBkxvZyBJbmRkAgUPDxYCHwEFF0N1cnJlbnQgQ3VzdG9tZXIgaXM6KDApZGQCCw8PFgIfAQUFMzQuOTlkZAIVDxAPFgIeC18hRGF0YUJvdW5kZ2QQFQgNUGxlYXNlIFNlbGVjdARCbHVlBUdyZWVuBk9yYW5nZQRQaW5rBlB1cnBsZQNSZWQGWWVsbG93FQgDMjYyAzI2MwMyNjQDMjY1AzI2NgMyNjcDMjY4AzI2ORQrAwhnZ2dnZ2dnZ2RkZC%2bxRbLWBjU0NSFBb%2bZ%2bsA92TUEv6hCJNOgEdH4m%2fFJq&txtfname=Randy&txtlname=Woodall&ddlclr=263&txtqty=1&btnadd=Add+to+Cart&__VIEWSTATEGENERATOR=327B7C5C&__SCROLLPOSITIONX=0&__SCROLLPOSITIONY=0&__EVENTVALIDATION=%2fwEdAA9CgPUT8LQ344oxobcf%2flNJ7f2YaSmlnHB%2fiKtAzEbFfsJUGz6lsVF2hoJVrSRg2yhYFd9zbYgBA%2bt1JyZdELSzL1OjWwIXT6Bu52QGXmwRuepjS0hyzUjdoQzWiZkaPh3zjdeRTyoAdOLQQ%2fi2s45U15CVbcHzQhbewgC4pku89ggvm1dgZePbNOOMx043%2br4rn4GnI95tqa1kctxupZOO2M%2bzgPzGs1AbGyafrNODThoZ0wSL5U9LmSPcecViyCJ3iOK%2fvhbKLcdmjiYG0i3MnorGjHwY1hpeqB0vzUWmUpW4vgeL6adI3NxXCF4E1lRTYKiR0vsKzYEPO8vRhl%2fwlCFcV3%2b1UcupqTeUO5GOlQ%3d%3d
+QueryString: 
+Server Name: localhost
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36
+User IP: ::1
+User Host Name: ::1
+User is Authenticated: False
+Message: StartIndex cannot be less than zero.
+Parameter name: startIndex
+Source: mscorlib
+TargetSite: System.String InternalSubStringWithChecks(Int32, Int32, Boolean)
+StackTrace:    at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at System.String.Substring(Int32 startIndex)
+   at cartpages_banners.FtpFile() in F:\InetPub\wwwroot\kinderkraft\Kinderkraft5goodwithlinks\cartpages\banners.aspx.vb:line 72
+   at cartpages_banners.btnadd_Click(Object sender, EventArgs e) in F:\InetPub\wwwroot\kinderkraft\Kinderkraft5goodwithlinks\cartpages\banners.aspx.vb:line 47
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+
+
+Time of Error: 3/10/2015 7:04 AM
+URL: https://www.secure.jostenskinderkraft.com/cartpages/banners.aspx
+Form: 
+QueryString: 
+Server Name: www.secure.jostenskinderkraft.com
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36
+User IP: 192.168.1.143
+User Host Name: 192.168.1.143
+User is Authenticated: False
+Message: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+Source: System
+TargetSite: Int32 Read(Byte[], Int32, Int32)
+StackTrace:    at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+
+
+
+
+Time of Error: 3/10/2015 7:04 AM
+URL: https://www.secure.jostenskinderkraft.com/cartpages/banners.aspx
+Form: 
+QueryString: 
+Server Name: www.secure.jostenskinderkraft.com
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36
+User IP: 192.168.1.143
+User Host Name: 192.168.1.143
+User is Authenticated: False
+Message: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+Source: System
+TargetSite: Int32 Read(Byte[], Int32, Int32)
+StackTrace:    at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+
+
+
+
+Time of Error: 3/10/2015 7:05 AM
+URL: https://www.secure.jostenskinderkraft.com/cartpages/banners.aspx
+Form: 
+QueryString: 
+Server Name: www.secure.jostenskinderkraft.com
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36
+User IP: 192.168.1.143
+User Host Name: 192.168.1.143
+User is Authenticated: False
+Message: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+Source: System
+TargetSite: Int32 Read(Byte[], Int32, Int32)
+StackTrace:    at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+
+
+
+
+Time of Error: 3/10/2015 7:05 AM
+URL: https://www.secure.jostenskinderkraft.com/cartpages/banners.aspx
+Form: 
+QueryString: 
+Server Name: www.secure.jostenskinderkraft.com
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36
+User IP: 192.168.1.143
+User Host Name: 192.168.1.143
+User is Authenticated: False
+Message: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+Source: System
+TargetSite: Int32 Read(Byte[], Int32, Int32)
+StackTrace:    at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+
+
+
+
+Time of Error: 3/10/2015 10:14 AM
+URL: https://www.secure.jostenskinderkraft.com/cartpages/banners.aspx
+Form: 
+QueryString: 
+Server Name: www.secure.jostenskinderkraft.com
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36
+User IP: 192.168.1.143
+User Host Name: 192.168.1.143
+User is Authenticated: False
+Message: The DataSourceID of 'ddlclr' must be the ID of a control of type IDataSource.  A control with ID 'dscolor' could not be found.
+Source: System.Web
+TargetSite: System.Web.UI.IDataSource GetDataSource()
+StackTrace:    at System.Web.UI.WebControls.DataBoundControl.GetDataSource()
+   at System.Web.UI.WebControls.DataBoundControl.ConnectToDataSourceView()
+   at System.Web.UI.WebControls.DataBoundControl.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+
+
+Time of Error: 3/10/2015 10:14 AM
+URL: https://www.secure.jostenskinderkraft.com/cartpages/banners.aspx
+Form: 
+QueryString: 
+Server Name: www.secure.jostenskinderkraft.com
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36
+User IP: 192.168.1.143
+User Host Name: 192.168.1.143
+User is Authenticated: False
+Message: The DataSourceID of 'ddlclr' must be the ID of a control of type IDataSource.  A control with ID 'dscolor' could not be found.
+Source: System.Web
+TargetSite: System.Web.UI.IDataSource GetDataSource()
+StackTrace:    at System.Web.UI.WebControls.DataBoundControl.GetDataSource()
+   at System.Web.UI.WebControls.DataBoundControl.ConnectToDataSourceView()
+   at System.Web.UI.WebControls.DataBoundControl.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+
+
+Time of Error: 3/10/2015 10:18 AM
+URL: https://www.secure.jostenskinderkraft.com/cartpages/banners.aspx
+Form: 
+QueryString: 
+Server Name: www.secure.jostenskinderkraft.com
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36
+User IP: 192.168.1.143
+User Host Name: 192.168.1.143
+User is Authenticated: False
+Message: The DataSourceID of 'ddlclr' must be the ID of a control of type IDataSource.  A control with ID 'dscolor' could not be found.
+Source: System.Web
+TargetSite: System.Web.UI.IDataSource GetDataSource()
+StackTrace:    at System.Web.UI.WebControls.DataBoundControl.GetDataSource()
+   at System.Web.UI.WebControls.DataBoundControl.ConnectToDataSourceView()
+   at System.Web.UI.WebControls.DataBoundControl.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+
+
+Time of Error: 3/10/2015 10:18 AM
+URL: https://www.secure.jostenskinderkraft.com/cartpages/banners.aspx
+Form: 
+QueryString: 
+Server Name: www.secure.jostenskinderkraft.com
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36
+User IP: 192.168.1.143
+User Host Name: 192.168.1.143
+User is Authenticated: False
+Message: The DataSourceID of 'ddlclr' must be the ID of a control of type IDataSource.  A control with ID 'dscolor' could not be found.
+Source: System.Web
+TargetSite: System.Web.UI.IDataSource GetDataSource()
+StackTrace:    at System.Web.UI.WebControls.DataBoundControl.GetDataSource()
+   at System.Web.UI.WebControls.DataBoundControl.ConnectToDataSourceView()
+   at System.Web.UI.WebControls.DataBoundControl.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+
+
+Time of Error: 4/14/2015 1:22 PM
+URL: https://www.secure.jostenskinderkraft.com/cartpages/diplomacart.aspx
+Form: 
+QueryString: 
+Server Name: www.secure.jostenskinderkraft.com
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:26.0) Gecko/20100101 Firefox/26.0
+User IP: 170.28.136.43
+User Host Name: 170.28.136.43
+User is Authenticated: False
+Message: Attempted to read past the end of the stream.
+Source: MySql.Data
+TargetSite: Void ReadFully(System.IO.Stream, Byte[], Int32, Int32)
+StackTrace:    at MySql.Data.MySqlClient.MySqlStream.ReadFully(Stream stream, Byte[] buffer, Int32 offset, Int32 count)
+   at MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+
+
+
+
+Time of Error: 4/14/2015 1:22 PM
+URL: https://www.secure.jostenskinderkraft.com/cartpages/invitecart.aspx
+Form: 
+QueryString: 
+Server Name: www.secure.jostenskinderkraft.com
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:26.0) Gecko/20100101 Firefox/26.0
+User IP: 170.28.136.43
+User Host Name: 170.28.136.43
+User is Authenticated: False
+Message: Unable to connect to any of the specified MySQL hosts.
+Source: MySql.Data
+TargetSite: Void Open()
+StackTrace:    at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   at System.Web.UI.WebControls.SqlDataSourceView.ExecuteSelect(DataSourceSelectArguments arguments)
+   at System.Web.UI.WebControls.ListControl.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.ListControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.EnsureDataBound()
+   at System.Web.UI.WebControls.ListControl.OnPreRender(EventArgs e)
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+
+
+Time of Error: 4/24/2015 4:49 AM
+URL: https://www.secure.jostenskinderkraft.com/cartpages/gowncart.aspx
+Form: 
+QueryString: 
+Server Name: www.secure.jostenskinderkraft.com
+User Agent: Mozilla/5.0 (iPad; CPU OS 8_1_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B435 Safari/600.1.4
+User IP: 173.22.25.183
+User Host Name: 173.22.25.183
+User is Authenticated: False
+Message: Unable to connect to any of the specified MySQL hosts.
+Source: MySql.Data
+TargetSite: Void Open()
+StackTrace:    at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   at System.Web.UI.WebControls.SqlDataSourceView.ExecuteSelect(DataSourceSelectArguments arguments)
+   at System.Web.UI.WebControls.ListControl.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.ListControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.EnsureDataBound()
+   at System.Web.UI.WebControls.ListControl.OnPreRender(EventArgs e)
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+
+
+Time of Error: 4/24/2015 4:49 AM
+URL: https://www.secure.jostenskinderkraft.com/cartpages/gowncart.aspx
+Form: 
+QueryString: 
+Server Name: www.secure.jostenskinderkraft.com
+User Agent: Mozilla/5.0 (iPad; CPU OS 8_1_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B435 Safari/600.1.4
+User IP: 173.22.25.183
+User Host Name: 173.22.25.183
+User is Authenticated: False
+Message: Unable to connect to any of the specified MySQL hosts.
+Source: MySql.Data
+TargetSite: Void Open()
+StackTrace:    at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   at System.Web.UI.WebControls.SqlDataSourceView.ExecuteSelect(DataSourceSelectArguments arguments)
+   at System.Web.UI.WebControls.ListControl.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.ListControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.EnsureDataBound()
+   at System.Web.UI.WebControls.ListControl.OnPreRender(EventArgs e)
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+
+
+Time of Error: 4/24/2015 5:33 AM
+URL: https://www.secure.jostenskinderkraft.com/cartpages/gowncart.aspx
+Form: 
+QueryString: 
+Server Name: www.secure.jostenskinderkraft.com
+User Agent: Mozilla/5.0 (Linux; Android 4.4.2; en-us; SAMSUNG SM-N900T Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile Safari/537.36
+User IP: 74.138.250.56
+User Host Name: 74.138.250.56
+User is Authenticated: False
+Message: Unable to connect to any of the specified MySQL hosts.
+Source: MySql.Data
+TargetSite: Void Open()
+StackTrace:    at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   at System.Web.UI.WebControls.SqlDataSourceView.ExecuteSelect(DataSourceSelectArguments arguments)
+   at System.Web.UI.WebControls.ListControl.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.ListControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.EnsureDataBound()
+   at System.Web.UI.WebControls.ListControl.OnPreRender(EventArgs e)
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+
+
+Time of Error: 4/24/2015 5:34 AM
+URL: https://www.secure.jostenskinderkraft.com/cartpages/gowncart.aspx
+Form: 
+QueryString: 
+Server Name: www.secure.jostenskinderkraft.com
+User Agent: Mozilla/5.0 (Linux; Android 4.4.2; en-us; SAMSUNG SM-N900T Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile Safari/537.36
+User IP: 74.138.250.56
+User Host Name: 74.138.250.56
+User is Authenticated: False
+Message: Unable to connect to any of the specified MySQL hosts.
+Source: MySql.Data
+TargetSite: Void Open()
+StackTrace:    at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   at System.Web.UI.WebControls.SqlDataSourceView.ExecuteSelect(DataSourceSelectArguments arguments)
+   at System.Web.UI.WebControls.ListControl.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.ListControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.EnsureDataBound()
+   at System.Web.UI.WebControls.ListControl.OnPreRender(EventArgs e)
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+
+
+Time of Error: 4/24/2015 6:11 AM
+URL: https://www.secure.jostenskinderkraft.com/cartpages/tasselcart.aspx
+Form: 
+QueryString: 
+Server Name: www.secure.jostenskinderkraft.com
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+User IP: 24.123.70.202
+User Host Name: 24.123.70.202
+User is Authenticated: False
+Message: Unable to connect to any of the specified MySQL hosts.
+Source: MySql.Data
+TargetSite: Void Open()
+StackTrace:    at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   at System.Web.UI.WebControls.SqlDataSourceView.ExecuteSelect(DataSourceSelectArguments arguments)
+   at System.Web.UI.WebControls.ListControl.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.ListControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.EnsureDataBound()
+   at System.Web.UI.WebControls.ListControl.OnPreRender(EventArgs e)
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+
+
+Time of Error: 4/24/2015 6:14 AM
+URL: https://www.secure.jostenskinderkraft.com/cartpages/tasselcart.aspx
+Form: 
+QueryString: 
+Server Name: www.secure.jostenskinderkraft.com
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+User IP: 24.123.70.202
+User Host Name: 24.123.70.202
+User is Authenticated: False
+Message: Unable to connect to any of the specified MySQL hosts.
+Source: MySql.Data
+TargetSite: Void Open()
+StackTrace:    at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   at System.Web.UI.WebControls.SqlDataSourceView.ExecuteSelect(DataSourceSelectArguments arguments)
+   at System.Web.UI.WebControls.ListControl.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.ListControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.EnsureDataBound()
+   at System.Web.UI.WebControls.ListControl.OnPreRender(EventArgs e)
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+
+
+Time of Error: 8/7/2015 12:40 PM
+URL: http://localhost:51992/cartpages/banners.aspx
+Form: 
+QueryString: 
+Server Name: localhost
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.130 Safari/537.36
+User IP: ::1
+User Host Name: ::1
+User is Authenticated: False
+Message: Access denied for user 'root'@'chome.wdfm.net' (using password: YES)
+Source: MySql.Data
+TargetSite: MySql.Data.MySqlClient.MySqlPacket ReadPacket()
+StackTrace:    at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+
+
+
+
+Time of Error: 8/7/2015 12:40 PM
+URL: http://localhost:51992/cartpages/banners.aspx
+Form: 
+QueryString: 
+Server Name: localhost
+User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.130 Safari/537.36
+User IP: ::1
+User Host Name: ::1
+User is Authenticated: False
+Message: Access denied for user 'root'@'chome.wdfm.net' (using password: YES)
+Source: MySql.Data
+TargetSite: MySql.Data.MySqlClient.MySqlPacket ReadPacket()
+StackTrace:    at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+
+
+
+

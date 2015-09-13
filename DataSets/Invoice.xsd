@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Invoice" targetNamespace="http://tempuri.org/Invoice.xsd" xmlns:mstns="http://tempuri.org/Invoice.xsd" xmlns="http://tempuri.org/Invoice.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Invoice" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Invoice">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="custid" type="xs:string" minOccurs="0" />
+              <xs:element name="fname" type="xs:string" minOccurs="0" />
+              <xs:element name="lname" type="xs:string" minOccurs="0" />
+              <xs:element name="semailaddress" type="xs:string" minOccurs="0" />
+              <xs:element name="companyname" type="xs:string" minOccurs="0" />
+              <xs:element name="billingaddr1" type="xs:string" minOccurs="0" />
+              <xs:element name="billingaddr2" type="xs:string" minOccurs="0" />
+              <xs:element name="city" type="xs:string" minOccurs="0" />
+              <xs:element name="state" type="xs:string" minOccurs="0" />
+              <xs:element name="postalcode" type="xs:string" minOccurs="0" />
+              <xs:element name="phonenumber" type="xs:string" minOccurs="0" />
+              <xs:element name="orderid" type="xs:string" minOccurs="0" />
+              <xs:element name="customerid" type="xs:string" minOccurs="0" />
+              <xs:element name="orderdate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ordernotes" type="xs:string" minOccurs="0" />
+              <xs:element name="subtot" type="xs:decimal" minOccurs="0" />
+              <xs:element name="shipmethod" type="xs:string" minOccurs="0" />
+              <xs:element name="shpchrg" type="xs:decimal" minOccurs="0" />
+              <xs:element name="tax" type="xs:decimal" minOccurs="0" />
+              <xs:element name="total" type="xs:decimal" minOccurs="0" />
+              <xs:element name="business" type="xs:string" minOccurs="0" />
+              <xs:element name="residential" type="xs:string" minOccurs="0" />
+              <xs:element name="productcode" type="xs:string" minOccurs="0" />
+              <xs:element name="productname" type="xs:string" minOccurs="0" />
+              <xs:element name="quantity" type="xs:string" minOccurs="0" />
+              <xs:element name="prodprice" type="xs:decimal" minOccurs="0" />
+              <xs:element name="totalprice" type="xs:decimal" minOccurs="0" />
+              <xs:element name="opdesc" type="xs:string" minOccurs="0" />
+              <xs:element name="date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="discountamt" type="xs:decimal" minOccurs="0" />
+              <xs:element name="paytype" msdata:Caption="Pay Type" type="xs:string" minOccurs="0" />
+              <xs:element name="promocode" type="xs:string" minOccurs="0" />
+              <xs:element name="saddr1" type="xs:string" minOccurs="0" />
+              <xs:element name="saddr2" type="xs:string" minOccurs="0" />
+              <xs:element name="scity" type="xs:string" minOccurs="0" />
+              <xs:element name="sstate" type="xs:string" minOccurs="0" />
+              <xs:element name="spostalcode" type="xs:string" minOccurs="0" />
+              <xs:element name="sfname" type="xs:string" minOccurs="0" />
+              <xs:element name="slname" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

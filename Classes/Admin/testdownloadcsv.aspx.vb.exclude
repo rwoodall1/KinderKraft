@@ -1,0 +1,85 @@
+﻿Imports System.Net
+Imports System.IO
+
+Partial Class Admin_downloadcsv
+	Inherits System.Web.UI.Page
+	Protected Sub btnUploadFile_Click(ByVal sender As Object, ByVal e As System.EventArgs)
+		Dim myFtpWebRequest As FtpWebRequest
+		Dim myFtpWebResponse As FtpWebResponse
+		Dim myStreamWriter As StreamWriter
+
+		myFtpWebRequest = WebRequest.Create("ftp://cmain1/trk4567.txt")
+
+		myFtpWebRequest.Credentials = New NetworkCredential("rwoodall", "Briggitte16")
+
+		myFtpWebRequest.Method = WebRequestMethods.Ftp.UploadFile
+		myFtpWebRequest.UseBinary = True
+
+		myStreamWriter = New StreamWriter(myFtpWebRequest.GetRequestStream())
+		myStreamWriter.Write(New StreamReader(Server.MapPath("trk4567.txt")).ReadToEnd)
+		myStreamWriter.Close()
+
+		myFtpWebResponse = myFtpWebRequest.GetResponse()
+
+		litResponse.Text = myFtpWebResponse.StatusDescription
+
+		myFtpWebResponse.Close()
+	End Sub
+
+	Protected Sub btnDownloadFile_Click(ByVal sender As Object, ByVal e As System.EventArgs)
+		Dim myFtpWebRequest As FtpWebRequest
+		Dim myFtpWebResponse As FtpWebResponse
+		Dim myStreamWriter As StreamWriter
+
+		myFtpWebRequest = WebRequest.Create("ftp://cmain1/trk4567.txt")
+
+		myFtpWebRequest.Credentials = New NetworkCredential("rwoodall", "Briggitte16")
+
+		myFtpWebRequest.Method = WebRequestMethods.Ftp.DownloadFile
+		myFtpWebRequest.UseBinary = True
+
+		myFtpWebResponse = myFtpWebRequest.GetResponse()
+
+		myStreamWriter = New StreamWriter(Server.MapPath("trk4567.txt"))
+		myStreamWriter.Write(New StreamReader(myFtpWebResponse.GetResponseStream()).ReadToEnd)
+		myStreamWriter.Close()
+
+		litResponse.Text = myFtpWebResponse.StatusDescription
+
+		myFtpWebResponse.Close()
+	End Sub
+
+	Protected Sub btnDeleteFile_Click(ByVal sender As Object, ByVal e As System.EventArgs)
+		Dim myFtpWebRequest As FtpWebRequest
+		Dim myFtpWebResponse As FtpWebResponse
+
+		myFtpWebRequest = WebRequest.Create("ftp://ftp_server_name/filename.ext")
+
+		'myFtpWebRequest.Credentials = New NetworkCredential("username", "password")
+
+		myFtpWebRequest.Method = WebRequestMethods.Ftp.DeleteFile
+
+		myFtpWebResponse = myFtpWebRequest.GetResponse()
+
+		litResponse.Text = myFtpWebResponse.StatusDescription
+
+		myFtpWebResponse.Close()
+	End Sub
+
+
+	Protected Sub btnlist_Click(sender As Object, e As EventArgs) Handles btnlist.Click
+		Dim strList As New List(Of String)
+		Dim fwr As FtpWebRequest = DirectCast(FtpWebRequest.Create(New Uri("ftp://cmain1/")), FtpWebRequest)
+		fwr.Credentials = New NetworkCredential("rwoodall", "Briggitte16")
+		fwr.Method = WebRequestMethods.Ftp.ListDirectory
+		Dim sr As New StreamReader(fwr.GetResponse().GetResponseStream())
+		Dim str As String = sr.ReadLine()
+		While str IsNot Nothing
+			strList.Add(str)
+			str = sr.ReadLine()
+		End While
+		sr.Close()
+		sr = Nothing
+		fwr = Nothing
+	End Sub
+End Class

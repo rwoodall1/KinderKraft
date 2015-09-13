@@ -1,0 +1,21 @@
+Time of Error: 4/22/2014 8:38 AM
+URL: http://localhost:52472/Kinderkraft5/scripts/jquery.min.js
+Form: 
+QueryString: 
+Server Name: localhost
+User Agent: 
+User IP: ::1
+User Host Name: ::1
+User is Authenticated: False
+Message: File does not exist.
+Source: System.Web
+TargetSite: System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+StackTrace:    at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+
+

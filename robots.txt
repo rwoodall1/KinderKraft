@@ -1,0 +1,7 @@
+User-agent: *
+
+Disallow: /secure/ 
+Disallow: /cartpages/ 
+Disallow: /pkgcart/ 
+Disallow: /Admin/
+Disallow: /receipt.aspx/ 

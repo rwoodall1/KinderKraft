@@ -1,0 +1,3 @@
+﻿ 'open in a new window
+ url = Page.ResolveClientUrl(url)
+            Button2.OnClientClick = "window.open('" & url & "')"

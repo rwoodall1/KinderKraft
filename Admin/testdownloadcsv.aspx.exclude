@@ -1,0 +1,46 @@
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="testdownloadcsv.aspx.vb" Inherits="Admin_downloadcsv" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Sample FTP Operations</title>
+</head>
+<body>
+<form id="myForm" runat="server">
+<div>
+
+<asp:Button ID="btnUploadFile" runat="server"
+    OnClick = "btnUploadFile_Click"
+    Text    = "Upload File"
+/>
+
+<asp:Button ID="btnDownloadFile" runat="server"
+    OnClick = "btnDownloadFile_Click"
+    Text    = "Download File"
+/>
+
+<asp:Button ID="btnDeleteFile" runat="server"
+    OnClick = "btnDeleteFile_Click"
+    Text    = "Delete File"
+/>
+
+<asp:Button ID="btnlist" runat="server"
+    Text    = "Get List"
+/>
+
+<pre>
+<asp:Literal id="litResponse" runat="server" />
+
+
+
+
+
+
+
+</pre>
+
+</div>
+</form>
+</body>
+</html>

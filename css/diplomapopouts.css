@@ -1,0 +1,213 @@
+@charset "utf-8";
+#feature1 {
+	background-image: url(../images/diplomasandcertificates/KK_Diplomas_LG_Images/LearningBlocks_elem.jpg);
+	height: 396px;
+	width: 450px;
+	position: absolute;
+	visibility: hidden;
+	top: 300px;
+	margin-left: 20px;
+	border: thin solid #333;
+}
+
+#feature2 {
+	background-image: url(../images/diplomasandcertificates/KK_Diplomas_LG_Images/LearningBlocks_kindergarten.jpg);
+	height: 396px;
+	width: 450px;
+	position: absolute;
+	visibility: hidden;
+	top: 300px;
+	margin-left: 100px;
+	border: thin solid #333;
+}
+#feature3 {
+	background-image: url(../images/diplomasandcertificates/KK_Diplomas_LG_Images/LearningBlocks_preschool.jpg);
+	height: 396px;
+	width: 450px;
+	position: absolute;
+	visibility: hidden;
+	top: 300px;
+	margin-left: 190px;
+	border: thin solid #333;
+}
+#feature4 {
+	background-image: url(../images/diplomasandcertificates/KK_Diplomas_LG_Images/BrightFutureCertificate_preschool.jpg);
+	height: 396px;
+	width: 450px;
+	position: absolute;
+	visibility: hidden;
+	top: 300px;
+	margin-left: 290px;
+	border: thin solid #333;
+}
+#feature5 {
+	background-image: url(../images/diplomasandcertificates/KK_Diplomas_LG_Images/BrightBeginnings_preschool.jpg);
+	height: 396px;
+	width: 450px;
+	position: absolute;
+	visibility: hidden;
+	top: 300px;
+	margin-left: 20px;
+	border: thin solid #333;
+}
+#feature6 {
+	background-image: url(../images/diplomasandcertificates/KK_Diplomas_LG_Images/LearnandGrow_general.jpg);
+	height: 396px;
+	width: 450px;
+	position: absolute;
+	visibility: hidden;
+	top: 300px;
+	margin-left: 120px;
+	border: thin solid #333;
+}
+#feature7 {
+	background-image: url(../images/diplomasandcertificates/KK_Diplomas_LG_Images/LearnandGrow_elem.jpg);
+	height: 396px;
+	width: 450px;
+	position: absolute;
+	visibility: hidden;
+	top: 300px;
+	border: thin solid #333;
+	margin-left: 220px;
+}
+#feature8 {
+	background-image: url(../images/diplomasandcertificates/KK_Diplomas_LG_Images/SmartStarts_elementary.jpg);
+	height: 396px;
+	width: 450px;
+	position: absolute;
+	visibility: hidden;
+	top: 300px;
+	margin-left: 20px;
+	border: thin solid #333;
+	margin-top: 100px;
+}
+#feature9 {
+	background-image: url(../images/diplomasandcertificates/KK_Diplomas_LG_Images/SmartStarts_kindergarten.jpg);
+	height: 396px;
+	width: 450px;
+	position: absolute;
+	visibility: hidden;
+	top: 300px;
+	margin-left: 100px;
+	border: thin solid #333;
+	margin-top: 100px;
+}
+#feature10 {
+	background-image: url(../images/diplomasandcertificates/KK_Diplomas_LG_Images/SmartStarts_preschool.jpg);
+	height: 396px;
+	width: 450px;
+	position: absolute;
+	visibility: hidden;
+	top: 300px;
+	margin-left: 190px;
+	border: thin solid #333;
+	margin-top: 100px;
+}
+#feature11 {
+	background-image: url(../images/diplomasandcertificates/KK_Diplomas_LG_Images/SmartStarts_general.jpg);
+	height: 396px;
+	width: 450px;
+	position: absolute;
+	visibility: hidden;
+	top: 300px;
+	margin-left: 290px;
+	border: thin solid #333;
+	margin-top: 100px;
+}
+#feature12 {
+	background-image: url(../images/diplomasandcertificates/KK_Diplomas_LG_Images/Chalkboard_elementary.jpg);
+	height: 396px;
+	width: 450px;
+	position: absolute;
+	visibility: hidden;
+	top: 300px;
+	margin-left: 20px;
+	border: thin solid #333;
+	margin-top: 100px;
+}
+#feature13 {
+	background-image: url(../images/diplomasandcertificates/KK_Diplomas_LG_Images/Chalkboard_Kindergarten.jpg);
+	height: 396px;
+	width: 450px;
+	position: absolute;
+	visibility: hidden;
+	top: 300px;
+	margin-left: 120px;
+	border: thin solid #333;
+	margin-top: 100px;
+}
+#feature14 {
+	background-image: url(../images/diplomasandcertificates/KK_Diplomas_LG_Images/Chalkboard_preschool.jpg);
+	height: 396px;
+	width: 450px;
+	position: absolute;
+	visibility: hidden;
+	top: 300px;
+	margin-left: 220px;
+	border: thin solid #333;
+	margin-top: 100px;
+}
+#feature20 {
+	background-image: url(../images/diplomasandcertificates/invites/99172%20BrightBeginnings_Invites_XLARGE.jpg);
+	height: 396px;
+	width: 500px;
+	position: absolute;
+	visibility: hidden;
+	top: 300px;
+	margin-left: 20px;
+	border: thin solid #333;
+	background-repeat: no-repeat;
+}
+#feature21 {
+	background-image: url(../images/diplomasandcertificates/invites/99172%20Chalkboard_Invites_XLARGE.jpg);
+	height: 396px;
+	width: 500px;
+	position: absolute;
+	visibility: hidden;
+	top: 300px;
+	margin-left: 140px;
+	border: thin solid #333;
+	background-repeat: no-repeat;
+}
+#feature22 {
+	background-image: url(../images/diplomasandcertificates/invites/99172%20LearnGrow_Invites_XLARGE.jpg);
+	height: 396px;
+	width: 500px;
+	position: absolute;
+	visibility: hidden;
+	top: 300px;
+	margin-left: -115px;
+	border: thin solid #333;
+}
+#feature23 {
+	background-image: url(../images/diplomasandcertificates/invites/99172%20LearningBlocks_Invite_XLARGE.jpg);
+	height: 396px;
+	width: 500px;
+	position: absolute;
+	visibility: hidden;
+	top: 300px;
+	margin-left: 25px;
+	border: thin solid #333;
+	background-repeat: no-repeat;
+}
+#feature24 {
+	background-image: url(../images/diplomasandcertificates/invites/99172%20SmartStarts_Invites_XLARGE.jpg);
+	height: 396px;
+	width: 500px;
+	position: absolute;
+	visibility: hidden;
+	top: 300px;
+	margin-left: 155px;
+	border: thin solid #333;
+}
+
+
+.diploma_lg p  {
+	font-size: small;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bolder;
+	font-style: italic;
+	font-variant: normal;
+	color: #666;
+	margin-bottom: 10px;
+}
