@@ -76,12 +76,12 @@ function MM_swapImgRestore() { //v3.0
 <table cellpadding="0" cellspacing="0" style="width: 660px; height: auto">
 	<tr>
 		<td class="style13" valign="top">
-			<a href="../shopjostenshome.aspx">Home</a> &gt; <a href="../accessories.aspx">Accessories</a><br /><strong><span class="style15">2015 Charm<br /><br /></span></strong></td>
+			<a href="../shopjostenshome.aspx">Home</a> &gt; <a href="../accessories.aspx">Accessories</a><br /><strong><span class="style15">2016 Charm<br /><br /></span></strong></td>
 		<td></td>
 	</tr>
 	<tr>
 		<td rowspan="2" valign="top">
-        <img src="../images/accessories/yeardate2015_LG.png"  name="theImg" width="269" height="280" id="theImg3" onmouseover="MM_swapImgRestore()" />
+        <img src="../images/accessories/yeardate2016_LG.png"  name="theImg" width="269" height="280" id="theImg3" onmouseover="MM_swapImgRestore()" />
 		</td>
 		
         <td height="79" valign="top">

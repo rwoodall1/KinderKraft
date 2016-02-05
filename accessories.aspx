@@ -121,9 +121,9 @@
       <h2>Our Price: <asp:Label ID="KWRIST" runat="server" ForeColor="#D74141" Text="KWRIST"></asp:Label></h2>
       </div>
     </div>
-    <div class="products"> <a href="cartpages/yearcharmcart.aspx"><img src="images/yeardate2015.png" alt="Graduate Wristband" name="ProductPicture" width="210" height="210" id="ProductPicture2" /></a>
+    <div class="products"> <a href="cartpages/yearcharmcart.aspx"><img src="images/yeardate2016_LG.png" alt="Graduate Wristband" name="ProductPicture" width="210" height="210" id="ProductPicture2" /></a>
     <div class="description">
-      <h6>2015 Charm</h6>
+      <h6>2016 Charm</h6>
       <h2>Our Price:<asp:Label ID="TYD" runat="server" 
 				ForeColor="#D74141" Text="TYD"></asp:Label> </h2>
       </div>

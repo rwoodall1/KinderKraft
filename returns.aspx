@@ -129,19 +129,19 @@
                     <br />
               </td>
                 <td>
-                    $11.50
+                    $12.50
                     <br />
                 </td>
-                <td>$36.50</td>
+                <td>$37.50</td>
                 <td>
-                    $46.50
+                    $47.50
                     <br />
                 </td>
                 <td>
-                    $35.50
+                    $36.50
                     <br />
                 </td>
-                <td>$60.50</td>
+                <td>$61.50</td>
             </tr>
             <tr>
                 <td class="style3">
@@ -150,61 +150,60 @@
                     <br />
               </td>
                 <td>
-                    $14.50
+                    $15.50
                     <br />
                 </td>
-                <td>$46.50</td>
+                <td>$45.50</td>
                 <td>
-                    $56.50
+                    $57.50
                     <br />
                 </td>
                 <td>
-                    $42.50
+                    $43.50
                     <br />
+                </td>
+                <td>$68.50</td>
+            </tr>
+            <tr>
+                <td class="style3">
+                    <br />
+                  $150.00-$200.00<br />
+                    <br />
+              </td>
+                <td>
+                    $17.50
+                    <br />
+                </td>
+                <td>$57.50</td>
+                <td>
+                    $67.50
+                    <br />
+                </td>
+                <td>
+                    $57.50
+                    <br />
+                </td>
+                <td>$82.50</td>
+            </tr>
+            <tr>
+                <td class="style3">
+                    <br />
+                  $201.00-$449.99<br />
+                    <br />
+              </td>
+                <td>
+                    FREE<br />
                 </td>
                 <td>$67.50</td>
-            </tr>
-            <tr>
-                <td class="style3">
-                    <br />
-                  $150.00-$299.00<br />
-                    <br />
-              </td>
                 <td>
-                    $16.50
+                    $77.50
                     <br />
                 </td>
-                <td>$56.50</td>
-                <td>
-                    $66.50
-                    <br />
-                </td>
-                <td>
-                    $56.50
-                    <br />
-                </td>
-                <td>$81.50</td>
-            </tr>
-            <tr>
-                <td class="style3">
-                    <br />
-                  $300.00-$449.99<br />
-                    <br />
-              </td>
-                <td>
-                    $21.50
-                    <br />
-                </td>
-                <td>$66.50</td>
                 <td>
                     $76.50
                     <br />
                 </td>
-                <td>
-                    $75.50
-                    <br />
-                </td>
-                <td>$100.50</td>
+                <td>$101.50</td>
             </tr>
             <tr>
                 <td class="style3">
@@ -213,19 +212,16 @@
                     <br />
               </td>
                 <td>
-                    $25.00
-                    <br />
+                    FREE<br />
                 </td>
-                <td>$85.50</td>
+                <td>$86.50</td>
                 <td>
-                    $125.00
-                    <br />
+                    $126.50<br />
                 </td>
                 <td>
-                    $100.00
-                    <br />
+                    $101.50 <br />
                 </td>
-                <td>$125.00</td>
+                <td>$126.50</td>
             </tr>
         </table><br />
         *Orders placed after 12:00 p.m.(noon) central time will be processed on the next business day. Please allow 5 business days for delivery on Express orders placed after 12:00 p.m.<br /><br />

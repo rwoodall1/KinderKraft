@@ -732,8 +732,8 @@ Public Class ShoppingCart
 					Case "INTERNATIONAL"
 						Me.ShipCode = "SI2"
 				End Select
-			Case 150 To 299.99
-				Select Case shipop
+            Case 150 To 200.0
+                Select Case shipop
 
 					Case "STANDARD"
 						Me.ShipCode = "SS3"
@@ -746,8 +746,8 @@ Public Class ShoppingCart
 					Case "INTERNATIONAL"
 						Me.ShipCode = "SI3"
 				End Select
-			Case 300 To 449.99
-				Select Case shipop
+            Case 201.0 To 449.99
+                Select Case shipop
 
 					Case "STANDARD"
 						Me.ShipCode = "SS4"

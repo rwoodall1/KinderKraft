@@ -123,7 +123,7 @@ function MM_swapImage() { //v3.0
         </td>
         <td height="79">
 			<div id="packprice" style="height:auto">
-				<strong>Our Price: <span class="red">$</span><asp:Label ID="TAS" runat="server" ForeColor="#D74141" Text="TAS"></asp:Label><br /><br /></strong>Pint-size tassels complement their caps. 9 solid colors and 5 multi-color options. Tassels include a yeardate 15 charm.</div>
+				<strong>Our Price: <span class="red">$</span><asp:Label ID="TAS" runat="server" ForeColor="#D74141" Text="TAS"></asp:Label><br /><br /></strong>Pint-size tassels complement their caps. 9 solid colors and 5 multi-color options. Tassels include a yeardate 16 charm.</div>
        	</td>
    	<tr>
 	   	<td height="223" valign="top" style="height:auto"> 

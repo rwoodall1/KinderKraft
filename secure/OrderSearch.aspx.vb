@@ -1214,8 +1214,8 @@ Partial Class OrderSearch
 					End If
 
 
-					retdiscount = LT.GetPromoDiscount(txtpromocode.Text, subtot)
-					discount = IIf(retdiscount <> 0, retdiscount, discount)	'this will not allow you to take off a promotion once it is made.
+                    retdiscount = LT.GetPromoDiscount(txtpromocode.Text, subtot, shpmeth)
+                    discount = IIf(retdiscount <> 0, retdiscount, discount)	'this will not allow you to take off a promotion once it is made.
 					tax = GetTax(subtot, shippingcost, orderdetail, discount)
 					total = subtot + shippingcost + discount + tax
 
@@ -1285,9 +1285,10 @@ Partial Class OrderSearch
 
 					shippingcost = GetShipping(subtot)
 
-					discount = LT.GetPromoDiscount(txtpromocode.Text, subtot)
+                    discount = LT.GetPromoDiscount(txtpromocode.Text, subtot, shpmeth)
 
-					tax = GetTax(subtot, shippingcost, orderdetail, discount)
+
+                    tax = GetTax(subtot, shippingcost, orderdetail, discount)
 					total = subtot + shippingcost + discount + tax
 
 					command = "UPDATE orders SET total=" & total.ToString & ",subtot=" & subtot.ToString & ",shpchrg=" & shippingcost.ToString & ",discountamt=" & discount.ToString & ",tax=" & tax.ToString & " WHERE orderid=" & orderid.ToString & ";"

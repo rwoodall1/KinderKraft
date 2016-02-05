@@ -158,12 +158,12 @@ Partial Class shopjostenshome
 		Me.lblmilestone.Text = "$" & Me.RetPrice(sender.text.ToString.ToUpper)
 	End Sub
 
-	Protected Sub lbllearner_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles lbllearner.Load
-		Dim prodcode As Label = sender
-		Me.lbllearner.Text = "$" & Me.RetPrice(sender.text.ToString.ToUpper)
-	End Sub
+    Protected Sub lblleader_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles lblleader.Load
+        Dim prodcode As Label = sender
+        Me.lblleader.Text = "$" & Me.RetPrice(sender.text.ToString.ToUpper)
+    End Sub
 
-	Protected Sub KRIBBON10PK_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles KRIBBON10PK.Load
+    Protected Sub KRIBBON10PK_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles KRIBBON10PK.Load
 		Dim prodcode As Label = sender
 		Me.KRIBBON10PK.Text = "$" & Me.RetPrice(sender.text.ToString.ToUpper)
 	End Sub

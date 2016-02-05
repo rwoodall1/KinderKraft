@@ -63,7 +63,11 @@ Partial Class Packages
         Me.MILESTONEPACKAGE.Text = "$" & Me.RetPrice(sender.text.ToString.ToUpper)
     End Sub
 
-    Protected Sub LEARNERPACKAGE_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles LEARNERPACKAGE.Load
+    'Protected Sub LEADERPACKAGE_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles LEADERPACKAGE.Load
+    '    Dim prodcode As Label = sender
+    '    Me.LEADERPACKAGE.Text = "$" & Me.RetPrice(sender.text.ToString.ToUpper)
+    'End Sub
+    Protected Sub LEARNERPACKAGE_Load(sender As Object, e As EventArgs) Handles LEARNERPACKAGE.Load
         Dim prodcode As Label = sender
         Me.LEARNERPACKAGE.Text = "$" & Me.RetPrice(sender.text.ToString.ToUpper)
     End Sub

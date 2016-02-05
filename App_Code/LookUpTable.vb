@@ -146,7 +146,7 @@ Public Class LookUpTable
 
 
         'Dim dsshipping As New SqlDataSource
-		'If Directory.Exists("f:\IsDev") Then 'set dev settings
+        'If Directory.Exists("f:\IsDev") Then 'set dev settings
         '    dsshipping.ConnectionString = strcon
 
         'Else
@@ -172,7 +172,7 @@ Public Class LookUpTable
         '    ProdDR("id") = drvSql("id")
         '    ProdDR("topamt") = drvSql("topamt")
         '    ProdDR("standard") = drvSql("standard")
-		'    ProdDR("expedited") = drvSql("expedited")
+        '    ProdDR("expedited") = drvSql("expedited")
         '    ProdDR("AlHw") = drvSql("AlHw")
         '    ProdDR("btamt") = drvSql("btamt")
         '    ProdDR("year") = drvSql("year")
@@ -181,81 +181,81 @@ Public Class LookUpTable
         ' end adding data-------------------------------------------------------------------------------------------------------------------------
         Dim retval As Decimal = 0
         Select Case subtotal
-			Case 0 To 49.99
+            Case 0 To 49.99
                 Select Case shipop
                     Case "No Shipping"
                         retval = 0
-					Case "STANDARD"
-						retval = 11.5
-					Case "RUSH"
-						retval = 36.5
-					Case "EXPRESS"
-						retval = 46.5
+                    Case "STANDARD"
+                        retval = 12.5
+                    Case "RUSH"
+                        retval = 37.5
+                    Case "EXPRESS"
+                        retval = 47.5
                     Case "AK/HI"
-                        retval = 35.5
-					Case "INTERNATIONAL"
-						retval = 60.5
-				End Select
+                        retval = 36.5
+                    Case "INTERNATIONAL"
+                        retval = 61.5
+                End Select
             Case 50.0 To 149.99
                 Select Case shipop
                     Case "No Shipping"
                         retval = 0
-					Case "STANDARD"
-						retval = 14.5
-					Case "RUSH"
-						retval = 46.5
-					Case "EXPRESS"
-						retval = 56.5
+                    Case "STANDARD"
+                        retval = 15.5
+                    Case "RUSH"
+                        retval = 47.5
+                    Case "EXPRESS"
+                        retval = 57.5
                     Case "AK/HI"
-						retval = 42.5
-					Case "INTERNATIONAL"
-						retval = 67.5
-				End Select
-            Case 150 To 299.99
+                        retval = 43.5
+                    Case "INTERNATIONAL"
+                        retval = 68.5
+                End Select
+            Case 150 To 200.0
                 Select Case shipop
                     Case "No Shipping"
                         retval = 0
-					Case "STANDARD"
-						retval = 16.5
-					Case "RUSH"
-						retval = 56.5
-					Case "EXPRESS"
-						retval = 66.5
+                    Case "STANDARD"
+                        retval = 17.5
+                    Case "RUSH"
+                        retval = 57.5
+                    Case "EXPRESS"
+                        retval = 67.5
                     Case "AK/HI"
-                        retval = 56.5
-					Case "INTERNATIONAL"
-						retval = 81.5
-				End Select
-            Case 300 To 449.99
+                        retval = 57.5
+                    Case "INTERNATIONAL"
+                        retval = 82.5
+                End Select
+            Case 201.0 To 449.99
                 Select Case shipop
                     Case "No Shipping"
                         retval = 0
-					Case "STANDARD"
-						retval = 21.5
-					Case "RUSH"
-						retval = 66.5
-					Case "EXPRESS"
-						retval = 76.5
+                    Case "STANDARD"
+                        retval = 22.5 '22.50
+                    Case "RUSH"
+                        retval = 67.5
+                    Case "EXPRESS"
+                        retval = 77.5
                     Case "AK/HI"
-                        retval = 75.5
-					Case "INTERNATIONAL"
-						retval = 100.5
-				End Select
+                        retval = 76.5
+                    Case "INTERNATIONAL"
+                        retval = 101.5
+                End Select
             Case Is > 450
                 Select Case shipop
                     Case "No Shipping"
                         retval = 0
-					Case "STANDARD"
-						retval = 25.0
-					Case "RUSH"
-						retval = 85.5
-					Case "EXPRESS"
-						retval = 95.5
+                    Case "STANDARD"
+                        retval = 26.5 '26.50
+                    Case "RUSH"
+                        retval = 86.5
+                    Case "EXPRESS"
+                        retval = 126.5
                     Case "AK/HI"
-                        retval = 100.0
-					Case "INTERNATIONAL"
-						retval = 125.0
-				End Select
+                        retval = 101.0
+                    Case "INTERNATIONAL"
+                        retval = 126.5
+                End Select
 
         End Select
 
@@ -633,153 +633,164 @@ Public Class LookUpTable
         Loop
         Return catid
     End Function
-	Function GetPromoDiscount(ByVal code As String, ByVal subtot As Decimal) As String
-		code = code.ToUpper
-		Dim retval As Decimal = 0.0
-		Dim dspromo As New SqlDataSource
-		dspromo.ConnectionString = ConnectStr
-		Dim dvSql As New DataView
-		Dim drvSql As DataRowView
-		Dim selectcmd As String
-		Dim startdte As Date
-		Dim enddte As Date
-		Dim percentage As Decimal = 0
-		Dim amount As Decimal = 0
-		selectcmd = "SELECT * from promotions where code=@code;"
-		dspromo.ProviderName = "MySql.Data.MySqlClient"
-		dspromo.SelectParameters.Add("@code", code.ToUpper)
-		dspromo.SelectCommand = selectcmd
-		dspromo.SelectCommandType = SqlDataSourceCommandType.Text
+    Function GetPromoDiscount(ByVal code As String, ByVal subtot As Decimal, ByVal shpcode As String) As String
+        code = code.ToUpper
+        Dim retval As Decimal = 0.0
+        Dim dspromo As New SqlDataSource
+        dspromo.ConnectionString = ConnectStr
+        Dim dvSql As New DataView
+        Dim drvSql As DataRowView
+        Dim selectcmd As String
+        Dim startdte As Date
+        Dim enddte As Date
+        Dim percentage As Decimal = 0
+        Dim amount As Decimal = 0
+        selectcmd = "SELECT * from promotions where code=@code;"
+        dspromo.ProviderName = "MySql.Data.MySqlClient"
+        dspromo.SelectParameters.Add("@code", code.ToUpper)
+        dspromo.SelectCommand = selectcmd
+        dspromo.SelectCommandType = SqlDataSourceCommandType.Text
 
-		Try
-			dvSql = CType(dspromo.Select(DataSourceSelectArguments.Empty), Data.DataView)
-			If dvSql.Count > 0 Then
-				For Each drvSql In dvSql
+        Try
+            dvSql = CType(dspromo.Select(DataSourceSelectArguments.Empty), Data.DataView)
+            If dvSql.Count > 0 Then
+                For Each drvSql In dvSql
 
-					'Dim code As String = drvSql("code").ToString() use code that was passed if we are this far it is good.
-					startdte = drvSql("startdte")
-					enddte = drvSql("enddte")
-					Try
-						percentage = drvSql("percentage")
-					Catch ex As Exception
+                    'Dim code As String = drvSql("code").ToString() use code that was passed if we are this far it is good.
+                    startdte = drvSql("startdte")
+                    enddte = drvSql("enddte")
+                    Try
+                        percentage = drvSql("percentage")
+                    Catch ex As Exception
 
-					End Try
-					Try
-						amount = drvSql("amount")
-					Catch ex As Exception
+                    End Try
+                    Try
+                        amount = drvSql("amount")
+                    Catch ex As Exception
 
-					End Try
+                    End Try
 
-				Next
-			End If
+                Next
+            End If
 
-			Dim currentdate As Date = Today
-			If currentdate <= enddte And currentdate >= startdte Then
-				Select Case code
-					Case "10KKWINTER"
-						If amount > 0 Then
+            Dim currentdate As Date = Today
+            If currentdate <= enddte And currentdate >= startdte Then
+                Select Case code
+                    'Case "10KKWINTER"
+                    '	If amount > 0 Then
 
-							If subtot > 149.99 Then
-								retval = amount
-							Else
-								retval = 0
-							End If
+                    '		If subtot > 149.99 Then
+                    '			retval = amount
+                    '		Else
+                    '			retval = 0
+                    '		End If
 
-						Else
-							If subtot > 149.99 Then
-								retval = (percentage * subtot)
-								retval = Decimal.Round(retval, 2)
-							Else
-								retval = 0
-							End If
-						End If
+                    '	Else
+                    '		If subtot > 149.99 Then
+                    '			retval = (percentage * subtot)
+                    '			retval = Decimal.Round(retval, 2)
+                    '		Else
+                    '			retval = 0
+                    '		End If
+                    '	End If
 
-					Case "KKSPRING14"
-						If subtot > 99.99 Then
-							Dim i As Integer = subtot \ 100	'slash is to left for integer division right slash returns partials
-							retval = (i * 10)
-						End If
-					Case "KKWINTER14"
-						Select Case subtot
-							Case 0 To 49.99
-								retval = 11.5
-							Case 50.0 To 149.99
-								retval = 14.5
-							Case 150 To 299.99
-								retval = 16.5
-							Case 300 To 449.99
-								retval = 21.5
-							Case Is > 450
-								retval = 25.0
-						End Select
-					Case "HOLIDAY14"   '200 over free shipping
-						Select Case subtot
-							
-							Case 200 To 299.99
-								retval = 16.5
-							Case 300 To 449.99
-								retval = 21.5
-							Case Is > 450
-								retval = 25.0
-                        End Select
-                    Case "SHIP15"   '200 over free shipping
+                    'Case "KKSPRING14"
+                    '	If subtot > 99.99 Then
+                    '		Dim i As Integer = subtot \ 100	'slash is to left for integer division right slash returns partials
+                    '		retval = (i * 10)
+                    '	End If
+                    'Case "KKWINTER14"
+                    '	Select Case subtot
+                    '		Case 0 To 49.99
+                    '			retval = 11.5
+                    '		Case 50.0 To 149.99
+                    '			retval = 14.5
+                    '		Case 150 To 299.99
+                    '			retval = 16.5
+                    '		Case 300 To 449.99
+                    '			retval = 21.5
+                    '		Case Is > 450
+                    '			retval = 25.0
+                    '	End Select
+                    'Case "HOLIDAY14"   '200 over free shipping
+                    '	Select Case subtot
+
+                    '		Case 200 To 299.99
+                    '			retval = 16.5
+                    '		Case 300 To 449.99
+                    '			retval = 21.5
+                    '		Case Is > 450
+                    '			retval = 25.0
+                    '                   End Select
+                    'Case "SHIP15"   '200 over free shipping
+                    '    Select Case subtot
+
+                    '        Case 200 To 299.99
+                    '            retval = 16.5
+                    '        Case 300 To 449.99
+                    '            retval = 21.5
+                    '        Case Is > 450
+                    '            retval = 25.0
+                    '    End Select
+                    'Case "CHART15"   '200 over free shipping
+                    '    Select Case subtot
+
+                    '        Case 200 To 299.99
+                    '            retval = 16.5
+                    '        Case 300 To 449.99
+                    '            retval = 21.5
+                    '        Case Is > 450
+                    '            retval = 25.0
+                    '    End Select
+                    Case "CSNOSHP"
+                        'take off shipping
                         Select Case subtot
-
-                            Case 200 To 299.99
-                                retval = 16.5
-                            Case 300 To 449.99
-                                retval = 21.5
+                            Case 0 To 49.99
+                                retval = 12.5
+                            Case 50.0 To 149.99
+                                retval = 15.5
+                            Case 150 To 200.99
+                                retval = 17.5
+                            Case 201 To 449.99
+                                retval = 22.5
                             Case Is > 450
-                                retval = 25.0
+                                retval = 26.5
                         End Select
-                    Case "CHART15"   '200 over free shipping
-                        Select Case subtot
-
-                            Case 200 To 299.99
-                                retval = 16.5
-                            Case 300 To 449.99
-                                retval = 21.5
-                            Case Is > 450
-                                retval = 25.0
-                        End Select
-					Case "CSNOSHP"
-						'take off shipping
-						Select Case subtot
-							Case 0 To 49.99
-								retval = 11.5
-							Case 50.0 To 149.99
-								retval = 14.5
-							Case 150 To 299.99
-								retval = 16.5
-							Case 300 To 449.99
-								retval = 21.5
-							Case Is > 450
-								retval = 25.0
-						End Select
+                    Case "SHIP16"
+                        If shpcode = "STANDARD" Then
 
 
-					Case Else
-						If amount <> 0 Then
-							retval = amount
-						Else
-							retval = (percentage * subtot)
-							retval = Decimal.Round(retval, 2)
-						End If
-				End Select
-			Else
-				retval = 0.0
-			End If
+                            'take off shipping
+                            Select Case subtot
 
-		Catch ex As Exception
+                                Case 201.0 To 449.99
+                                    retval = 22.5
+                                Case Is > 450
+                                    retval = 26.5
+                            End Select
+                        End If
+                    Case Else
+                        If amount <> 0 Then
+                            retval = amount
+                        Else
+                            retval = (percentage * subtot)
+                            retval = Decimal.Round(retval, 2)
+                        End If
+                End Select
+            Else
+                retval = 0.0
+            End If
 
-		End Try
+        Catch ex As Exception
+
+        End Try
 
 
 
-		Dim a As Decimal = retval * 2
-		Dim discnt As Decimal = retval - a
-		Dim finalretval As String = "$" & discnt.ToString("N2")
+        Dim a As Decimal = retval * 2
+        Dim discnt As Decimal = retval - a
+        Dim finalretval As String = "$" & discnt.ToString("N2")
 
-		Return finalretval
-	End Function
+        Return finalretval
+    End Function
 End Class

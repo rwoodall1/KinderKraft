@@ -5,7 +5,7 @@ Imports System.Net
 
 Partial Class Admin_csv
     Inherits System.Web.UI.Page
-    Dim currentyr As String = "2015"
+    Dim currentyr As String = "2016"
     Protected Sub Button1_Click(sender As Object, e As System.EventArgs) Handles Button1.Click
         Dim sb As New StringBuilder()
         Dim prodcode As String
@@ -55,8 +55,8 @@ Partial Class Admin_csv
             End If
 
             Select Case cdatarow(13) 'take out 2 leading numbers
-                Case "01KGRADPKD", "02KSCHPKD", "03KACHPKD", "04KMILEPKD", "05KLEAPKD"
-					prodcode = cdatarow(13).ToString.Substring(2)
+                Case "01KGRADPKD", "02KSCHPKD", "03KACHPKD", "04KMILEPKD", "05KLEAPKD", "06KLEADPKD"
+                    prodcode = cdatarow(13).ToString.Substring(2)
 					pkgdetailid = cdatarow(12)
                 Case Else
                     prodcode = cdatarow(13)
@@ -274,7 +274,7 @@ Partial Class Admin_csv
 
             FtpFile(TheFile)  '____________________________________________________+++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-		Catch ex As Exception
+        Catch ex As Exception
 		   statustxt=ex.Message 
 		End Try
 		Label1.Text = statustxt
@@ -304,12 +304,18 @@ Partial Class Admin_csv
 
 		Dim pos As Integer
 		Dim lastpos As Integer
-		Try
-			dvSql = CType(dsOrderOptions.Select(DataSourceSelectArguments.Empty), Data.DataView)
+        Try
+            dvSql = CType(dsOrderOptions.Select(DataSourceSelectArguments.Empty), Data.DataView)
 
             For Each drvSql In dvSql
                 If drvSql(6) = "KK_BAN_COLOR" Then
-                    Return sb 'we don't write option to send to Jostens.They have this item as a service order
+                    'Return sb 'we don't write option to send to Jostens.They have this item as a service order
+                    Continue For
+
+                End If
+                If drvSql(6) = "" Then
+                    Continue For
+                    'Return sb 'we don't write option to send to Jostens.They have this item as a service order
                 End If
                 sb.Append(Environment.NewLine)
                 sb.Append("4~SHOP_V2~")
@@ -363,15 +369,18 @@ Partial Class Admin_csv
                     sb.Append("KK_GRADYEAR~" & sashyear)  'changed from Sash_year to GradYear
 
                 Else
+                    Dim ae As String = drvSql(6)
+                    Dim ab As String = drvSql(7)
                     sb.Append(drvSql(6) & "~") 'optiondesc code from jostens?? sending optionid
                     sb.Append(drvSql(7).trim) 'optionvalue not optiondescription
 
                 End If
             Next
 
-		Catch ex As Exception
+        Catch ex As Exception
 
-		End Try
+            Dim aa As String
+        End Try
 
 		Return sb
 	End Function

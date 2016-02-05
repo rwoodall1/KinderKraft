@@ -52,7 +52,7 @@ Partial Class cartpages_banners
 
             Dim detid As String = SC.AddToCart(SC.orderdetail, KBANNER.ID, Me.txtqty.Text, Me.KBANNER.Text, "Banner", Me.ddlclr.SelectedItem.Text & "," & txtfname.Text & " " & txtlname.Text)
 
-            Dim arroptions(1, 4) As String
+            Dim arroptions(2, 4) As String
             arroptions(0, 1) = Me.ddlclr.SelectedValue
             arroptions(0, 2) = Me.ddlclr.SelectedItem.Text
             arroptions(0, 3) = KBANNER.ID
@@ -61,6 +61,11 @@ Partial Class cartpages_banners
             arroptions(1, 2) = txtfname.Text & " " & txtlname.Text
             arroptions(1, 3) = KBANNER.ID
             arroptions(1, 4) = detid
+
+            arroptions(2, 1) = ddlOrientation.SelectedItem.Value
+            arroptions(2, 2) = ddlOrientation.SelectedItem.Text
+            arroptions(2, 3) = KBANNER.ID
+            arroptions(2, 4) = detid
 
             SC.AddOptions(SC.OrderOptions, arroptions, KBANNER.ID)
             Session("ShoppingCart") = SC
@@ -166,5 +171,90 @@ Partial Class cartpages_banners
         End Select
         args.IsValid = retval
 
+    End Sub
+    Protected Sub ddlclr_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ddlclr.SelectedIndexChanged
+        Select Case ddlOrientation.SelectedItem.Text.ToUpper
+
+
+            Case "HORIZONTAL"
+                Select Case ddlclr.SelectedItem.Text.ToUpper
+
+
+                    Case "BLUE"
+                        defaultBanner.ImageUrl = "~/images/banners/KK_Class_Banner_Blue.jpg"
+
+                    Case "GREEN"
+                        defaultBanner.ImageUrl = "~/images/banners/KK_Class_Banner_Green.jpg"
+                    Case "ORANGE"
+                        defaultBanner.ImageUrl = "~/images/banners/KK_Class_Banner_Orange.jpg"
+                    Case "PINK"
+                        defaultBanner.ImageUrl = "~/images/banners/KK_Class_Banner_Pink.jpg"
+                    Case "PURPLE"
+                        defaultBanner.ImageUrl = "~/images/banners/KK_Class_Banner_Purple.jpg"
+                    Case "RED"
+                        defaultBanner.ImageUrl = "~/images/banners/KK_Class_Banner_Red.jpg"
+                    Case "YELLOW"
+                        defaultBanner.ImageUrl = "~/images/banners/KK_Class_Banner_Gold.jpg"
+
+                End Select
+
+            Case "VERTICAL"
+                Select Case ddlclr.SelectedItem.Text.ToUpper
+
+                    Case "BLUE"
+                        defaultBanner.ImageUrl = "~/images/banners/KK_Stud_Banner_Blue.jpg"
+                    Case "GREEN"
+                        defaultBanner.ImageUrl = "~/images/banners/KK_Stud_Banner_Green.jpg"
+                    Case "ORANGE"
+                        defaultBanner.ImageUrl = "~/images/banners/KK_Stud_Banner_Orange.jpg"
+                    Case "PINK"
+                        defaultBanner.ImageUrl = "~/images/banners/KK_Stud_Banner_Pink.jpg"
+                    Case "PURPLE"
+                        defaultBanner.ImageUrl = "~/images/banners/KK_Stud_Banner_Purple.jpg"
+                    Case "RED"
+                        defaultBanner.ImageUrl = "~/images/banners/KK_Stud_Banner_Red.jpg"
+                    Case "YELLOW"
+                        defaultBanner.ImageUrl = "~/images/banners/KK_Stud_Banner_Gold.jpg"
+                End Select
+        End Select
+    End Sub
+    Protected Sub ddlOrientation_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ddlOrientation.SelectedIndexChanged
+        ddlclr_SelectedIndexChanged(sender, e)
+    End Sub
+    Protected Sub ImageButton1_Click(sender As Object, e As ImageClickEventArgs) Handles btnblue.Click
+        ddlclr.SelectedItem.Text = "Blue"
+        ddlclr.SelectedValue = 263
+        ddlclr_SelectedIndexChanged(sender, e)
+
+    End Sub
+    Protected Sub btngreen_Click(sender As Object, e As ImageClickEventArgs) Handles btngreen.Click
+        ddlclr.SelectedItem.Text = "Green"
+        ddlclr.SelectedValue = 264
+        ddlclr_SelectedIndexChanged(sender, e)
+    End Sub
+    Protected Sub btnorange_Click(sender As Object, e As ImageClickEventArgs) Handles btnorange.Click
+        ddlclr.SelectedItem.Text = "Orange"
+        ddlclr.SelectedValue = 265
+        ddlclr_SelectedIndexChanged(sender, e)
+    End Sub
+    Protected Sub btnpink_Click(sender As Object, e As ImageClickEventArgs) Handles btnpink.Click
+        ddlclr.SelectedItem.Text = "Pink"
+        ddlclr.SelectedValue = 266
+        ddlclr_SelectedIndexChanged(sender, e)
+    End Sub
+    Protected Sub btnpurple_Click(sender As Object, e As ImageClickEventArgs) Handles btnpurple.Click
+        ddlclr.SelectedItem.Text = "Purple"
+        ddlclr.SelectedValue = 267
+        ddlclr_SelectedIndexChanged(sender, e)
+    End Sub
+    Protected Sub btnred_Click(sender As Object, e As ImageClickEventArgs) Handles btnred.Click
+        ddlclr.SelectedItem.Text = "Red"
+        ddlclr.SelectedValue = 268
+        ddlclr_SelectedIndexChanged(sender, e)
+    End Sub
+    Protected Sub btngold_Click(sender As Object, e As ImageClickEventArgs) Handles btngold.Click
+        ddlclr.SelectedItem.Text = "Yellow"
+        ddlclr.SelectedValue = 269
+        ddlclr_SelectedIndexChanged(sender, e)
     End Sub
 End Class

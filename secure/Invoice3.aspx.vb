@@ -90,19 +90,21 @@ Partial Class Invoice3
 		lblsubtot.Text = "$" & subtot.ToString("N2")
 
 
-        Dim amnt As String = lt.GetPromoDiscount(lblpromocode.Text, lblsubtot.Text)
-       
-        lbldiscount.Text = amnt
-		
-		If SCa.NoShipChg Then
+
+
+
+
+        If SCa.NoShipChg Then
 			lblshipping.Text = "0.00"
 		Else
 			lblshipping.Text = "$" & lt.GetShipping(CDec(lblsubtot.Text), lblmethod.Text).ToString("N2")
 		End If
 
 
-		SCa.SetShipCode(CDec(lblsubtot.Text), lblmethod.Text)
-		hftaxabletotal.Value = SCa.GetTaxableItemTotal(SCa.orderdetail, SCa.userzip, lblshipping.Text, SCa.taxexempt)  'we add because this value is a negative
+        SCa.SetShipCode(CDec(lblsubtot.Text), lblmethod.Text)
+        Dim amnt As String = lt.GetPromoDiscount(lblpromocode.Text, lblsubtot.Text, lblmethod.Text)
+        lbldiscount.Text = amnt
+        hftaxabletotal.Value = SCa.GetTaxableItemTotal(SCa.orderdetail, SCa.userzip, lblshipping.Text, SCa.taxexempt)  'we add because this value is a negative
 
         If hftaxabletotal.Value > 0 Then
 
@@ -312,8 +314,8 @@ Partial Class Invoice3
 			orderid = CInt(cmd.ExecuteScalar())
             Session.Add("orderid", orderid)
 
-            ChangeBannerName(orderid) 'changes temporary file name to orderid as a name
-			retval = True
+            'ChangeBannerName(orderid) 'changes temporary file name to orderid as a name
+            retval = True
 		Catch ex As Exception 'orders failed
 			retval = False
 			cmd.Transaction.Rollback()

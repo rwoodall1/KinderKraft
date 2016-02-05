@@ -252,8 +252,8 @@
                     AppendDataBoundItems="True" AutoPostBack="True" 
                                     >
                                                                 <asp:ListItem Value="STANDARD" Selected="True">Standard - 10 Business Days</asp:ListItem>
-                                                                <asp:ListItem Value="RUSH" Disabled="True">Rush Delivery - Not Available</asp:ListItem> 
-                                                                <asp:ListItem Value="EXPRESS" Disabled="True">Express - Not Available</asp:ListItem> 
+                                                                <asp:ListItem Value="RUSH">Rush Delivery </asp:ListItem> 
+                                                                <asp:ListItem Value="EXPRESS">Express</asp:ListItem> 
                                                                 <asp:ListItem Value="AK/HI">Alaska/Hawaii - 10 Business Days</asp:ListItem>
                                                                 <asp:ListItem Value="INTERNATIONAL">International - 20 Business Days</asp:ListItem>
                                                             </asp:DropDownList>

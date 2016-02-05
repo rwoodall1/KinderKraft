@@ -111,24 +111,26 @@
         <font color="#FF6600">S</font><font color="#0099CC">A</font>V<font color="#3333FF">I</font><font color="#FF6600">N</font><font color="#0099CC">G</font>S $4.00</p>
       </div>
   </div>
-  <div class="packages"> <a href="pkgcart/milestonepkgcart.aspx"> <img src="images/home pg images/Milestone package2014_web.jpg" alt="Milestone Package" name="ProductPicture" width="210" height="210" id="ProductPicture3" /></a>
+    <div class="packages"> <a href="pkgcart/leaderpkgcart.aspx"> <img src="images/home pg images/Leader package2014_web.jpg" alt="Leader Package" name="ProductPicture" width="210" height="210" id="ProductPicture4" /></a>
+    <div class="description">
+      <h6>Leader Package</h6>
+      <h2>Our Price: <asp:Label ID="lblleader" runat="server" ForeColor="#D74141" Text="06KLEADPKD"></asp:Label></h2>
+      <p>Total Package<br />
+        <font color="#FF6600">S</font><font color="#0099CC">A</font>V<font color="#3333FF">I</font><font color="#FF6600">N</font><font color="#0099CC">G</font>S $3.50</p>
+      </div>
+  </div>
+  
+  <div class="packagesend"> <a href="pkgcart/milestonepkgcart.aspx"> <img src="images/home pg images/Milestone package2014_web.jpg" alt="Milestone Package" name="ProductPicture" width="210" height="210" id="ProductPicture3" /></a>
     <div class="description">
       <h6>Milestone Package</h6>
       <h2>Our Price: <asp:Label ID="lblmilestone" runat="server" ForeColor="#D74141" 
                 Text="04KMILEPKD"></asp:Label>
         </h2>
       <p>Total Package<br />
-        <font color="#FF6600">S</font><font color="#0099CC">A</font>V<font color="#3333FF">I</font><font color="#FF6600">N</font><font color="#0099CC">G</font>S $3.50</p>
+        <font color="#FF6600">S</font><font color="#0099CC">A</font>V<font color="#3333FF">I</font><font color="#FF6600">N</font><font color="#0099CC">G</font>S $3.50</p><br />
       </div>
   </div>
-  <div class="packagesend"> <a href="pkgcart/learnerpkgcart.aspx"> <img src="images/home pg images/Learner package2014_web.jpg" alt="Learner Package" name="ProductPicture" width="210" height="210" id="ProductPicture4" /></a>
-    <div class="description">
-      <h6>Learner Package</h6>
-      <h2>Our Price: <asp:Label ID="lbllearner" runat="server" ForeColor="#D74141" Text="05KLEAPKD"></asp:Label></h2>
-      <p>Total Package<br />
-        <font color="#FF6600">S</font><font color="#0099CC">A</font>V<font color="#3333FF">I</font><font color="#FF6600">N</font><font color="#0099CC">G</font>S $1.00</p>
-      </div>
-  </div>
+
   
   <div class="products_accessories">Caps, Gowns, and Tassels</div>
   <div class="products"> <a href="cartpages/capcart.aspx"><img src="images/home pg images/kk_cap.jpg" alt="Caps" name="ProductPicture" width="210" height="210" id="ProductPicture" /></a>

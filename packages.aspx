@@ -128,7 +128,19 @@
       <p><i>This package includes our best basics: cap and gown, tassel and diploma or certificate. Free Graduate Ribbon. Cap and gown included in the packages will be the same color.</i></p><br />
 
     </div>
-</div>		      
+</div>	
+
+<%--<div class="packages">
+    <a href="pkgcart/leaderpkgcart.aspx">
+    <img src="images/home%20pg%20images/Leader%20package2014_web.jpg" alt="Leader Package" name="ProductPicture" width="210" height="210" id="ProductPicture" /></a>
+  <div class="description">
+   	<h6>Leader Package</h6>
+    <h2>Our Price: <asp:Label id="LEADERPACKAGE" runat="server" 
+                Text="06KLEADPKD" ForeColor="#D74141"></asp:Label></h2>
+    <p>Total Package <font color="#FF6600">S</font><font color="#0099CC">A</font>V<font color="#3333FF">I</font><font color="#FF6600">N</font><font color="#0099CC">G</font>S $3.50</p>
+      <p><i>Includes gown, cap, and tassel.</i></p>
+    </div>
+</div>	--%>		      
         
 <div class="packages">
     <a href="pkgcart/milestonepkgcart.aspx">
@@ -138,11 +150,9 @@
     <h2>Our Price: <asp:Label id="MILESTONEPACKAGE" runat="server" 
 Text="04KMILEPKD " ForeColor="#D74141"></asp:Label></h2>
     <p>Total Package <font color="#FF6600">S</font><font color="#0099CC">A</font>V<font color="#3333FF">I</font><font color="#FF6600">N</font><font color="#0099CC">G</font>S $3.50</p>
-      <p><i>Includes tee, cap and tassel.</i></p><br />
-
+      <p><i>Includes tee, cap and tassel.</i></p>
     </div>
 </div>		
-
 <div class="packages">
     <a href="pkgcart/learnerpkgcart.aspx">
     <img src="images/home pg images/Learner package2014_web.jpg" alt="Achiever Package" name="ProductPicture" width="210" height="210" id="ProductPicture" /></a>
@@ -153,7 +163,8 @@ Text="04KMILEPKD " ForeColor="#D74141"></asp:Label></h2>
     <p>Total Package <font color="#FF6600">S</font><font color="#0099CC">A</font>V<font color="#3333FF">I</font><font color="#FF6600">N</font><font color="#0099CC">G</font>S $1.00</p>
       <p><i>Includes cap, tassel, diploma or certificate and diploma frame.</i></p>
     </div>
-</div>		        
+</div>	
+        
 </div>
 
 

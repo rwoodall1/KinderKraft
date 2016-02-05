@@ -240,12 +240,13 @@ Partial Class scart
 		Dim subtot As Decimal = SCa.GetItemTotal(SCa.orderdetail)
 		lblsubtot.Text = "$" & subtot.ToString("N2")	'
 		SCa.promocode = txtpromocode.Text
-		Dim amnt As String = lt.GetPromoDiscount(txtpromocode.Text, lblsubtot.Text)
-		lbldiscount.Text = amnt
 
-		SCa.shipmethod = ddlshipmeth1.SelectedValue
 
-		lblshipping.Text = "$" & lt.GetShipping(CDec(lblsubtot.Text), SCa.shipmethod).ToString("N2")
+        SCa.shipmethod = ddlshipmeth1.SelectedValue
+        Dim amnt As String = lt.GetPromoDiscount(txtpromocode.Text, lblsubtot.Text, SCa.shipmethod)
+        lbldiscount.Text = amnt
+
+        lblshipping.Text = "$" & lt.GetShipping(CDec(lblsubtot.Text), SCa.shipmethod).ToString("N2")
 
 		SCa.SetShipCode(CDec(lblsubtot.Text), SCa.shipmethod)
 

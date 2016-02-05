@@ -548,3 +548,78 @@ StackTrace:    at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
 
 
 
+Time of Error: 1/12/2016 10:52 PM
+URL: http://localhost:60092/Admin/csv.aspx
+Form: __EVENTTARGET=LinkButton15&__EVENTARGUMENT=&__VIEWSTATE=%2fwEPDwUKLTY2ODM4NTQwNQ9kFgICAQ9kFghmDw8WAh4EVGV4dAUHTG9nIE91dGRkAgEPDxYEHwAFDldlbGNvbWUsIGFkbWluHgdWaXNpYmxlZ2RkAgIPDxYEHwAFS0N1cnJlbnQgQ3VzdG9tZXIgaXM6SEFZTUFSS0VUIEJBUFRJU1QgQ0hVUkNIIEFORCBQUkVTQ0hPT0wgICAgICAgICAgICAgICgwKR8BZ2RkAgMPDxYCHwFnZGRkcjBEpoVd4swEf7R%2fvmwx8V9ZklYNzVnMiFSEblfVphQ%3d&txtorderid=&__VIEWSTATEGENERATOR=7A1BFD5E&__PREVIOUSPAGE=mzlIXlanjdM7kOHy8kuyydQFFb1lYb53JWThjQcamahR7tUdi0gO9SOkgoyKmwaNlBzAC__Uvx3zgkc8xiZWC6jTkDC2cD-T8AQeyaIU8cQ1&__EVENTVALIDATION=%2fwEdABNJ6Rcvy3BlTAAYW4ZZnuYq7f2YaSmlnHB%2fiKtAzEbFfrU3zaTs9Ah%2bLyp4AX88QyEtoTbSwlwiqvdkyjI2EuAl9uGDl%2bgG9gKEUSV2HDekT2axzHw2jrl9nOQ7jgyUnou7ODGvJRWFxD7kBJiWRR%2bIPTClsMmJ8hmkbqbroj41E2VikE%2b%2byEdoHTLugZV7sMg%2fMqgFZhOFN6c%2b1kPw6h66ZJlQu0%2fkVKJqdzSgL%2b0UiNjlSMfMHSbu8cS7BKmf64E5Rzpf5yQyUjH5kkLtR2sWQHge%2brPmax1d2Dq7vJHPKC8GKqXMmBkqwxC3G8lPvgEDB3ZV0oesqGEIB7J6cioJAnxycQghpKsdHBHBWSFm3N3Sn4sfCe3QheVON9mgCIyVuL4Hi%2bmnSNzcVwheBNZU9omb5ofvkfmSf5oUmhDNyVXbV7JVX2Hoxof5dVVWzms%3d
+QueryString: 
+Server Name: localhost
+User Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36
+User IP: ::1
+User Host Name: ::1
+User is Authenticated: True
+Message: F:\InetPub\wwwroot\GitHub\KinderKraft\Admin\csv.aspx.vb(366): error BC30616: Variable 'a' hides a variable in an enclosing block.
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult CompileWebFile(System.Web.VirtualPath)
+StackTrace:    at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+
+
+Time of Error: 1/12/2016 10:52 PM
+URL: http://localhost:60092/Admin/csv.aspx
+Form: __EVENTTARGET=LinkButton15&__EVENTARGUMENT=&__VIEWSTATE=%2fwEPDwUKLTY2ODM4NTQwNQ9kFgICAQ9kFghmDw8WAh4EVGV4dAUHTG9nIE91dGRkAgEPDxYEHwAFDldlbGNvbWUsIGFkbWluHgdWaXNpYmxlZ2RkAgIPDxYEHwAFS0N1cnJlbnQgQ3VzdG9tZXIgaXM6SEFZTUFSS0VUIEJBUFRJU1QgQ0hVUkNIIEFORCBQUkVTQ0hPT0wgICAgICAgICAgICAgICgwKR8BZ2RkAgMPDxYCHwFnZGRkcjBEpoVd4swEf7R%2fvmwx8V9ZklYNzVnMiFSEblfVphQ%3d&txtorderid=&__VIEWSTATEGENERATOR=7A1BFD5E&__PREVIOUSPAGE=mzlIXlanjdM7kOHy8kuyydQFFb1lYb53JWThjQcamahR7tUdi0gO9SOkgoyKmwaNlBzAC__Uvx3zgkc8xiZWC6jTkDC2cD-T8AQeyaIU8cQ1&__EVENTVALIDATION=%2fwEdABNJ6Rcvy3BlTAAYW4ZZnuYq7f2YaSmlnHB%2fiKtAzEbFfrU3zaTs9Ah%2bLyp4AX88QyEtoTbSwlwiqvdkyjI2EuAl9uGDl%2bgG9gKEUSV2HDekT2axzHw2jrl9nOQ7jgyUnou7ODGvJRWFxD7kBJiWRR%2bIPTClsMmJ8hmkbqbroj41E2VikE%2b%2byEdoHTLugZV7sMg%2fMqgFZhOFN6c%2b1kPw6h66ZJlQu0%2fkVKJqdzSgL%2b0UiNjlSMfMHSbu8cS7BKmf64E5Rzpf5yQyUjH5kkLtR2sWQHge%2brPmax1d2Dq7vJHPKC8GKqXMmBkqwxC3G8lPvgEDB3ZV0oesqGEIB7J6cioJAnxycQghpKsdHBHBWSFm3N3Sn4sfCe3QheVON9mgCIyVuL4Hi%2bmnSNzcVwheBNZU9omb5ofvkfmSf5oUmhDNyVXbV7JVX2Hoxof5dVVWzms%3d
+QueryString: 
+Server Name: localhost
+User Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36
+User IP: ::1
+User Host Name: ::1
+User is Authenticated: True
+Message: F:\InetPub\wwwroot\GitHub\KinderKraft\Admin\csv.aspx.vb(366): error BC30616: Variable 'a' hides a variable in an enclosing block.
+Source: System.Web
+TargetSite: System.Web.Compilation.BuildResult CompileWebFile(System.Web.VirtualPath)
+StackTrace:    at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+
+
+Time of Error: 1/13/2016 7:26 AM
+URL: http://localhost:60092/Admin/CustOrders.aspx
+Form: __EVENTTARGET=&__EVENTARGUMENT=&__VIEWSTATE=AF9m8WTcpakfJtNY7%2bFd0wZ5B%2b9RzySEMpg8w9ea9SLs5I5GZUDiGZO1LmAHMs%2fyPmlLwllDZ2060bP85nEnIL%2bzIPFnzV3v5CKJ4hN%2bqRhiahbCt5PtyW%2bQpf2VoHCL3glm%2fw%2bBLRBKOQNrOUcxrP9kezanTldBpaJn%2bnill4tz4kZMwjdV5nbxkmj8RZYZ3YhjdABXcpM0aymVMITD7g1kUZev4KFrgXJFHAGbABVpmYTiJggcUSO%2fITt9ph%2fSOkP6z1l%2bnatmOTJbiCJf9DVKo0XjRsv8%2bB28Z%2fWhQDfRn1Gbq507HRwi0cYa3yfKikaDX0XfOuprlF7K8K84Cdc13ps8rE8JwIQij7HZp54n%2f%2fe0ikGQMIJesdEM0vwwFT1HVhTZnnWsZNl2p5eHrc1yNaQu2KSU%2f0sz3DhX71jlkBSTmfEm8k8Dp8TF4PXP3ucbuyHH0OD1D60ZCLsX2XtMYB8x4ZWH8MarxkdehT6VmUUpUyH%2fXvaQOsEhmx6ZOm7ZOzGdUaRvIXoZKeAuzx8IdOPiDL8sPjzI7Im4q6OSovssTB4AF2YxzX3kMyFDWdSDKJY6GAMR6HRMApvQ2Q%3d%3d&searchcustid=10001&Button2=Create+A+New+Order+For+Current+Customer&__VIEWSTATEGENERATOR=C7B19C84&__SCROLLPOSITIONX=0&__SCROLLPOSITIONY=0&__VIEWSTATEENCRYPTED=&__PREVIOUSPAGE=NcDh66Y4F3IrBmZE7zSBBHHSoXN9EX51_dKnndLBoBvnEEmg60eYGnuc25Ql33rj7hHH9m69ye4vHEmrwOnKMIh0tMqNYqz-euxDon68N-o1&__EVENTVALIDATION=ZhUFc7p47J1t4wRUQUIkMBglHam5g7AlpJt%2fIkI1NopYUfNOtDvZ%2f1FoqKy8ImfCnA%2b%2b2Dem6fwoxCXAzkHfd9Hp1SkfpkribldItQ41p%2fYZm%2bDQbGPyFVkW1zAXW7nbc%2fJSxtg6TnARDROlzTjtxPocjUNM37UGyi%2bgUF6Qze1DkDXGnmirCWYj7n879C4J8yWysNd3z9EiuOieO7o8n%2brHtDi73uqD18VfXpx%2baqqijdbCoX4jl1yK0oPulsNwwPFzWxm%2fFlF%2fc0CK3NS7XW5YcYtmPk8c%2fh5CMDvl22I%3d
+QueryString: 
+Server Name: localhost
+User Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36
+User IP: ::1
+User Host Name: ::1
+User is Authenticated: True
+Customer Name:HAYMARKET BAPTIST CHURCH AND PRESCHOOL              
+Customer Email:wdalfarm@woodalldevelopment.com
+Message: Object reference not set to an instance of an object.
+Source: App_Web_mkdutf5q
+TargetSite: Void Button2_Click(System.Object, System.EventArgs)
+StackTrace:    at CustOrders.Button2_Click(Object sender, EventArgs e) in F:\InetPub\wwwroot\GitHub\KinderKraft\Admin\CustOrders.aspx.vb:line 59
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+
+
+
